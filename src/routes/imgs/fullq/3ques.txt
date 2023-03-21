@@ -1,0 +1,89 @@
+Which of the following has schemas written in XML?
+>OVAL
+3DES
+WPA
+PAP
+
+Russ is using only documentation to test the security of a system. What type of testing methodology is this known as?
+Active security analysis
+>Passive security analysis
+Hybrid security analysis
+Hands-on security analysis
+
+Of the following, which is the best way for a person to find out what security holes exist on the network?
+Run a port scan
+Use a network sniffer
+>Perform a vulnerability assessment
+Use an IDS solution
+
+After using Nmap to do a port scan of your server, you find that several ports are open. Which of the following should you do next?
+Leave the ports open and monitor them for malicious attacks
+Run the port scan again
+Close all ports
+>Examine the services and/or processes that use those ports.
+
+Many companies send passwords via clear text. Which of the following can view these passwords?
+Rainbow table
+Port scanner
+John the Ripper
+>Protocol analyzer
+
+To show risk from a monetary standpoint, which of the following should risk assessments be based upon?
+Survey of loss, potential threats, and asset value
+>Quantitative measurement of risk, impact, and asset value
+Complete measurement of all threats
+Qualitative measurement of risk and impact
+
+The main objective of risk management in an organization is to reduce risk to a level: 
+the organization will mitigate
+where the ARO equals the SLE
+>the organization will accept
+where the ALE is lower than the SLE
+
+An example of a program that does comparative analysis is what?
+Protocol analyzer
+>Password cracker
+Port scanner
+Event viewer
+
+Which of the following tools uses ICMP as its main underlying protocol?
+>Ping scanner
+Port scanner
+Image scanner
+Bardcode scanner
+
+Which of the following is used when performing a quantitative risk analysis?
+>Asset value
+Surveys
+Focus groups
+Best practices
+
+You have been tasked with running a penetration test on a server. You have been given limited knowledge about the inner workings of the server. What kind of test will you be performing?
+White-box
+Gray-box
+Black-box
+Passive vulnerability scan
+
+Which of the following is a technical control?
+Disaster recovery plan
+Baseline configuration development
+>Least privilege implemenetation
+Categorization of system security
+
+Which of the following is a detective security control?
+Bollards
+Firewall
+Tape backup
+>CCTV
+
+Why should penetration testing only be done during controlled conditions?
+Because vulnerability scanners can cause network flooding
+>Because penetration testing actively tests security controls and can cause system instability
+Because white-box penetration testing cannot find zero-day attacks
+Because penetration testing passively tests security controls and can cause system instability
+
+A security admin is running a security analysis where information about a target system is gained without engaging or exploiting the system. Which of the following describes this type of analysis?
+Banner grabbing
+ALE assessment
+Active reconnaissance
+>Passive reconnaissance

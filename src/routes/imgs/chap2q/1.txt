@@ -1,0 +1,29 @@
+Which of the following is the most secure protocol to use when accessing a wireless network?
+WEP
+WPA
+>WPA2
+TKIP
+
+What should you configure to improve wireless security?
+Enable the SSID
+IP Spoofing
+Remove repeaters
+>MAC filtering
+
+In a wireless network, why is an SSID used?
+To secure the wireless access point
+>To identify the network
+To encrypt data
+To enforce MAC filtering
+
+What is the most common problem associated with UTP cable?
+>Crosstalk
+Data emanation
+Chromatic dispersion
+Vampire tapping
+
+What two security precautions can best help to protect against wireless network attacks?
+Authentication and WEP
+Access Control Lists and WEP
+Identification and WPA2
+>Authentication and WPA

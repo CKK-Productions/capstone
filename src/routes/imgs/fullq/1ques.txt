@@ -1,0 +1,89 @@
+Which of the following is not one of the three main goals in Information Security?
+Confidentiality
+>Auditing
+Integrity
+Availability
+
+To protect against malicious attacks, what should you think like?
+>Hacker
+Network Admin
+Spoofer
+Auditor
+
+Tom sends out many e-mails containing secure information to other companies. What concept should be implemented to prove that Tom did indeed send the emails?
+Authenticity
+>Non-repudiation
+Confidentiality
+Integrity
+
+Which of the following does the A in CIA stand for when it comes to IT security?
+Accountability
+Assessment
+>Availability
+Auditing
+
+Which of the following is the greatest risk when it comes to removable storage?
+Integrity of data
+Availability of data
+>Confidentiality of data
+Accountability of data
+
+When it comes to information security, what is the I in CIA?
+Insurrection
+Information
+Indigestion
+>Integrity
+
+You are developing a security plan for your organization. Which of the following is an example of a physical control?
+Password
+DRP
+>ID card
+Encryption
+
+A user receives an e-mail but the e-mail client software says the digital signature is invalid and the sender of the e-mail cannot be verified. The would-be recipient is concerned about which of the following concepts?
+Confidentiality
+>Integrity
+Remediation
+Availability
+
+Cloud environments often reuse the same physical hardware (such as hard drives) for multiple customers. These hard drives are used and reused when customer virtual machines are created and deleted over time. what security concern does this bring up implications for?
+Availablility of virtual machines
+Integrity of data
+>Data confidentiality
+Hardware integrity
+
+Which of the following individuals uses code with little knowledge of how it works?
+Hacktivist
+>Script kiddie
+APT
+Insider
+
+When is a system completely secure?
+When it is updated
+When it is assessed for vulnerabilities
+When all anomalies have been removed
+>Never
+
+A set of computer-attacking processes that targets private organizations or nation states. Also refers to a group that persistently targets a specific entity.
+>APT
+Defense in Depth
+White Hats
+Organized Crime
+
+A type of hacker that is contracted to break into a company's system.
+Twofish
+>White Hat
+Script Kiddie
+Vampire Tap
+
+The idea of ensuring that a person or group cannot refute the validity of your proof against them.
+>Non-repudiation
+Mutual Authentication
+Accounting
+Auditing
+
+The act of protecting information from unauthorized acess. It usually includes an in-depth plan on how to secure data, computers, and networks.
+>Information Security
+Kerberos
+Confidentiality
+Authorization

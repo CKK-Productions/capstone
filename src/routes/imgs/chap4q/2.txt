@@ -1,0 +1,29 @@
+Of the following definitions, which would be an example of eavesdropping?
+>Overhearing parts of a conversation
+Monitoring network traffic
+Another person looking through your files
+A computer capturing information from a sender
+
+A man pretending to be a data communications repair technician enters your building and states that there is networking trouble and he needs access to the server room. What is this an example of?
+Man-in-the-middle attack
+Virus
+>Social engineering
+Chain of custody
+
+Turnstiles, double entry doors, and security guards are all preventative measures for what kind of social engineering?
+Dumpster diving
+Impersonation
+>Piggybacking
+Eavesdropping
+
+You need to protect your data center from unauthorized entry at all times. Which is the best type of physical security to implement?
+>Mantrap
+Video surveillance
+Nightly security guards
+802.1X
+
+Which of the following targets specific people?
+Pharming
+Phishing
+Vishing
+>Spear phishing

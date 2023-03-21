@@ -1,0 +1,29 @@
+A group of compromised computers that have software installed by a worm or Trojan is known as which of the following?
+>Botnet
+Virus
+Honeypot
+Zombie
+
+Which of the following computer security threats can be updated automatically and remotely? (Select the best answer.)
+Virus
+Worm
+>Zombie
+Malware
+
+Which of the following is a common symptom of spyware?
+Infected files
+Computer shuts down
+Applications freeze
+Pop-up windows
+
+Which of the following is not an example of malicious software?
+Rootkits
+Spyware
+Viruses
+>Browser
+
+Which of the following types of malware appears to the user as legitimate but actually enables unauthorized access to the user's computer?
+Worm
+Virus
+>Trojan
+Spam

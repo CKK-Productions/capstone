@@ -1,0 +1,83 @@
+{
+    "a":
+    [{
+        "question":"Which of the following has schemas written in XML?",
+        "answers":["OVAL","3DES","WPA","PAP"],
+        "correct":0 
+    },
+    {
+        "question":"Russ is using only documentation to test the security of a system. What type of testing methodology is this known as?",
+        "answers":["Active security analysis","Passive security analysis","Hybrid security analysis","Hands-on security analysis"],
+        "correct":1 
+    },
+    {
+        "question":"Of the following, which is the best way for a person to find out what security holes exist on the network?",
+        "answers":["Run a port scan","Use a network sniffer","Perform a vulnerability assessment","Use an IDS solution"],
+        "correct":2 
+    },
+    {
+        "question":"After using Nmap to do a port scan of your server, you find that several ports are open. Which of the following should you do next?",
+        "answers":["Leave the ports open and monitor them for malicious attacks","Run the port scan again","Close all ports","Examine the services and/or processes that use those ports"],
+        "correct":3 
+    },
+    {
+        "question":"Many companies send passwords via clear text. Which of the following can view these passwords?",
+        "answers":["Rainbow table","Port scanner","John the Ripper","Protocol analyzer"],
+        "correct":3 
+    }],
+
+    "b":
+    [{
+        "question":"To show risk from a monetary standpoint, which of the following should risk assessments be based upon?",
+        "answers":["Survey of loss, potential threats, and asset value","Quantitative measurement of risk, impact, and asset value","Complete measurement of all threats","Qualitative measurement of risk and impact"],
+        "correct":1 
+    },
+    {
+        "question":"The main objective of risk management in an organization is to reduce risk to a level: ",
+        "answers":["the organization will mitigate","where the ARO equals the SLE","the organization will accept","where the ALe is lower than the SLE"],
+        "correct":2 
+    },
+    {
+        "question":"An example of a program that does comparative analysis is what?",
+        "answers":["Protocol analyzer","Password cracker","Port scanner","Event viewer"],
+        "correct":1 
+    },
+    {
+        "question":"Which of the following tools uses ICMP as its main underlying protocol?",
+        "answers":["Ping scanner","Port scanner","Image scanner","Barcode scanner"],
+        "correct":0 
+    },
+    {
+        "question":"Which of the following is used when performing a quantitative risk analysis?",
+        "answers":["Asset value","Surveys","Focus groups","Best practices"],
+        "correct":0
+    }],
+
+    "c":
+    [{
+        "question":"You have been tasked with running a penetration test on a server. You have been given limited knowledge about the inner workings of the server. What kind of test will you be performing?",
+        "answers":["White-box","Gray-box","Black-box","Passive vulnerability scan"],
+        "correct":1 
+    },
+    {
+        "question":"Which of the following is a technical control?",
+        "answers":["Disaster recovery plan","Baseline configuration development","Least privilege implementation","Categorization of system security"],
+        "correct":2 
+    },
+    {
+        "question":"Which of the following is a detective security control?",
+        "answers":["Bollards","Firewall","Tape backup","CCTV"],
+        "correct":3 
+    },
+    {
+        "question":"Why should penetration testing only be done during controlled conditions?",
+        "answers":["Because vulnerability scanners can cause network flooding","Because penetration testing actively tests security controls and can cause system instability","Because white-box penetration testing cannot find zero-day attacks","Because penetration testing passively tests security controls and can cause system instability"],
+        "correct":1 
+    },
+    {
+        "question":"A security admin is running a security analysis where information about a target system is gained without engaging or exploiting the system. Which of the following describes this type of analysis?",
+        "answers":["Banner grabbing","ALE assessment","Active reconnaissance","Passive reconnaissance"],
+        "correct":3 
+    }]
+}
+

@@ -1,0 +1,29 @@
+When is a system completely secure?
+When it is updated
+When it is assessed for vulnerabilities
+When all anomalies have been removed
+>Never
+
+A set of computer-attacking processes that targets private organizations or nation states. Also refers to a group that persistently targets a specific entity.
+>APT
+Defense in Depth
+White Hats
+Organized Crime
+
+A type of hacker that is contracted to break into a company's system.
+Twofish
+>White Hat
+Script Kiddie
+Vampire Tap
+
+The idea of ensuring that a person or group cannot refute the validity of your proof against them.
+>Non-repudiation
+Mutual Authentication
+Accounting
+Auditing
+
+The act of protecting information from unauthorized acess. It usually includes an in-depth plan on how to secure data, computers, and networks.
+>Information Security
+Kerberos
+Confidentiality
+Authorization

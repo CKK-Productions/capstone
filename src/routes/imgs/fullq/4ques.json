@@ -1,0 +1,82 @@
+{
+    "level4.1":
+    [{
+        "question":"Jeff wants to employ a Faraday cage. What will this accomplish?",
+        "answers":["It will increase the level of wireless encryption","It will reduce data emanations","It will increase EMI","It will decrease the level of wireless emanations"],
+        "correct":1 
+    },
+    {
+        "question":"You go out the back door of your building and notice someone looking through your company's trash. If this person were trying to acquire sensitive information, what would this attack be known as?",
+        "answers":["Browsing","Dumpster diving","Phishing","Hacking"],
+        "correct":1 
+    },
+    {
+        "question":"User education does not help to defend against which of the following?",
+        "answers":["Social engineering","Phishing","Rainbow tables","Dumpster diving"],
+        "correct":2 
+    },
+    {
+        "question":"Which of these is an example of social engineering?",
+        "answers":["Asking for a username and password over the phone","Using someone else's unsecured wireless network","Hacking into a router","Virus"],
+        "correct":0 
+    },
+    {
+        "question":"What is the most common reason that social engineering succeeds?",
+        "answers":["Lack of vulnerability testing","People sharing passwords","Lack of auditing","Lack of user awareness"],
+        "correct":3 
+    }],
+
+    "level4.2":
+    [{
+        "question":"Of the following definitions, which would be an example of eavesdropping?",
+        "answers":["Overhearing parts of a conversation","Monitoring network traffic","Another person looking throuhg your files","A computer capturing information from a sender"],
+        "correct":0 
+    },
+    {
+        "question":"A man pretending to be a data communications repair technician enters your building and states that there is networking trouble and he needs access to the server room. What is this an example of?",
+        "answers":["Man-in-the-middle attack","Virus","Social engineering","Chain of custody"],
+        "correct":2 
+    },
+    {
+        "question":"Turnstiles, double entry doors, and security guards are all preventative measures for what kind of social engineering?",
+        "answers":["Dumpster diving","Impersonation","Piggybacking","Eavesdropping"],
+        "correct":2 
+    },
+    {
+        "question":"You need to protect your data center from unauthorized entry at all times. Which is the best type of physical security to implement?",
+        "answers":["Mantrap","Video surveillance","Nightly security guards","802.1X"],
+        "correct":0 
+    },
+    {
+        "question":"Which of the following targets specific people?",
+        "answers":["Pharming","Phishing","Vishing","Spear phishing"],
+        "correct":3 
+    }],
+
+    "level4.3":
+    [{
+        "question":"Why would you implement password masking?",
+        "answers":["To deter tailgating","To deter shoulder surfing","To deter impersonation","To deter hoaxes"],
+        "correct":1 
+    },
+    {
+        "question":"A targeted e-mail attack is received by your organization's CFO. What is this an example of?",
+        "answers":["Vishing","Phsihing","Whaling","Spear phishing"],
+        "correct":2 
+    },
+    {
+        "question":"Which of the following environmental variables reduces the possibility of static discharges (ESD)?",
+        "answers":["Humidity","Temperature","EMI","RFI"],
+        "correct":0 
+    },
+    {
+        "question":"Which of the following is a strategy that targets users based on the common websites that they frequent?",
+        "answers":["Pre-action","Hot/cold aisle","SCADA","Watering hole"],
+        "correct":3 
+    },
+    {
+        "question":"If a fire occurs in the server room, which device is the best method to put it out?",
+        "answers":["Class A extinguisher","Class B extinguisher","Class C extinguisher","Class D extinguisher"],
+        "correct":2 
+    }]
+}

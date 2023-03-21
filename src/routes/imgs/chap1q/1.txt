@@ -1,0 +1,29 @@
+Which of the following is not one of the three main goals in Information Security?
+Confidentiality
+>Auditing
+Integrity
+Availability
+
+To protect against malicious attacks, what should you think like?
+>Hacker
+Network Admin
+Spoofer
+Auditor
+
+Tom sends out many e-mails containing secure information to other companies. What concept should be implemented to prove that Tom did indeed send the emails?
+Authenticity
+>Non-repudiation
+Confidentiality
+Integrity
+
+Which of the following does the A in CIA stand for when it comes to IT security?
+Accountability
+Assessment
+>Availability
+Auditing
+
+Which of the following is the greatest risk when it comes to removable storage?
+Integrity of data
+Availability of data
+>Confidentiality of data
+Accountability of data

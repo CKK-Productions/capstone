@@ -1,0 +1,89 @@
+Jeff wants to employ a Faraday cage. What will this accomplish?
+It will increase the level of wireless encryption
+>It will reduce data emanations
+It will increase EMI
+It will decrease the level of wireless emanations
+
+You go out the back door of your building and notice someone looking through your company's trash. If this person were trying to acquire sensitive information, what would this attack be known as?
+Browsing
+>Dumpster diving
+Phishing
+Hacking
+
+User education does not help to defend against which of the following?
+Social engineering
+Phishing
+>Rainbow tables
+Dumpster diving
+
+Which of these is an example of social engineering?
+>Asking for a username and password over the phone
+Using someone else's unsecured wireless network
+Hacking into a router
+Virus
+
+What is the most common reason that social engineering succeeds?
+Lack of vulnerability testing
+People sharing passwords
+Lack of auditing
+>Lack of user awareness
+
+Of the following definitions, which would be an example of eavesdropping?
+>Overhearing parts of a conversation
+Monitoring network traffic
+Another person looking through your files
+A computer capturing information from a sender
+
+A man pretending to be a data communications repair technician enters your building and states that there is networking trouble and he needs access to the server room. What is this an example of?
+Man-in-the-middle attack
+Virus
+>Social engineering
+Chain of custody
+
+Turnstiles, double entry doors, and security guards are all preventative measures for what kind of social engineering?
+Dumpster diving
+Impersonation
+>Piggybacking
+Eavesdropping
+
+You need to protect your data center from unauthorized entry at all times. Which is the best type of physical security to implement?
+>Mantrap
+Video surveillance
+Nightly security guards
+802.1X
+
+Which of the following targets specific people?
+Pharming
+Phishing
+Vishing
+>Spear phishing
+
+Why would you implement password masking?
+To deter tailgating
+>To deter shoulder surfing
+To deter impersonation
+To deter hoaxes
+
+A targeted e-mail attack is received by your organization's CFO. What is this an example of?
+Vishing
+Phishing
+>Whaling
+Spear phishing
+
+Which of the following environmental variables reduces the possibility of static discharges (ESD)?
+>Humidity
+Temperature
+EMI
+RFI
+
+Which of the following is a strategy that targets users based on the common websites that they frequent?
+Pre-action
+Hot/cold aisle
+SCADA
+>Watering hole
+
+If a fire occurs in the server room, which device is the best method to put it out?
+Class A extinguisher
+Class B extinguisher
+>Class C extinguisher
+Class D extinguisher
