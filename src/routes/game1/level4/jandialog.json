@@ -1,0 +1,67 @@
+{
+    "a":
+    [{
+        "dialog":"...",
+        "expression":"bi"
+    },
+    {
+        "dialog":"...",
+        "expression":"se"
+    },
+    {
+        "dialog":"sorry, Janny was daydreaming",
+        "expression":"de"
+    },
+    {
+        "dialog":"i will Have so much free time later, it is hard not to fantasize",
+        "expression":"de"
+    },
+    {
+        "dialog":"what Do you do in your free time?",
+        "expression":"de"
+    },
+    {
+        "dialog":"how Productive is your life outside of your responsibilities?",
+        "expression":"de"
+    },
+    {
+        "dialog":"...",
+        "expression":"sw"
+    },
+    {
+        "dialog":"great Work on the chain by the way",
+        "expression":"up"
+    },
+    {
+        "dialog":"shall We?",
+        "expression":"de"
+    }],
+    
+    "success":
+    [{
+        "dialog":"ever So closer",
+        "expression":"de"
+    },
+    {
+        "dialog":"keep Going",
+        "expression":"de"
+    },
+    {
+        "dialog":"quite The token!",
+        "expression":"si"
+    }],
+
+    "failure":
+    [{
+        "dialog":"...",
+        "expression":"he"
+    },
+    {
+        "dialog":"...",
+        "expression":"dv"
+    },
+    {
+        "dialog":"...",
+        "expression":"bl"
+    }]
+}

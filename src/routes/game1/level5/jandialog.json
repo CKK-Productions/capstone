@@ -1,0 +1,23 @@
+{
+    "a":
+        [{
+            "dialog":"you have Done it!",
+            "expression":"de"
+        },
+        {
+            "dialog":"the Moment i have been waiting for!",
+            "expression":"oj"
+        },
+        {
+            "dialog":"well Go on, champ!",
+            "expression":"oe"
+        },
+        {
+            "dialog":"get Everything you have ever wanted! right Behind that door!",
+            "expression":"up"
+        },
+        {
+            "dialog":"Janny is waiting",
+            "expression":"oe"
+        }]
+}
