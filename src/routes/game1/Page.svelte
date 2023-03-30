@@ -114,9 +114,11 @@
 
 </script>
 
+<div class="head">
+</div>
 <div> <!-- Arrows and Page count-->
     <img on:click={prevPage} src={LeftArrow} alt="Left Arrow" id="la"> 
-    <p> Page {y + 1}/{count}</p>
+    <h3 id="count"> Page {y + 1}/{count} </h3>
     <img on:click={nextPage} src={RightArrow} alt="Right Arrow" id="ra">
 </div>
 <div> <!-- Page image -->
@@ -129,9 +131,30 @@
         height: 1500px;
     }
     #ra {
+        position: absolute;
         float: right;
+        width: 9%;
+        top: 0.5%;
+        right: 0.5%;
     }
     #la {
+        position: absolute;
         float: left;
+        width: 9%;
+        top: 0.5%;
+        left: 0.5%
+    }
+    #count {
+        position: relative;
+        left: 46%;
+    }
+    .head {
+        border: 3px #355dd4 solid;
+        position: absolute;
+        top: 0.5%;
+        left:0.7%;
+        width: 98%;
+        height: 3.5%;
+        background-color: aquamarine;
     }
 </style>

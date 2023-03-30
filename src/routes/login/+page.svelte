@@ -28,17 +28,17 @@
           />
         </div>
         <div>
-            <label for="name">Password</label>
-            <input
+          <label for="name">Password</label>
+          <input
             type="password"
             id="password"
-             name="password"
-             value=""
-            />
+            name="password"
+            value=""
+          />
         </div>
       <button type="submit">Submit</button>
     </form>
-    <h3>Don't have an account?<a href="/login/loginnew"> Click Here</a>.</h3>
+    <h3>Don't have an account? <a href="/login/loginnew"> Click Here</a>.</h3>
 </main>
   
   <style>
@@ -58,5 +58,12 @@
   
       form > div + * {
         margin-top: 10px;
+      }
+      main {
+        position: absolute;
+        /* border: 3px blue solid; */
+        left: 43%;
+        top: 20%;
+        padding: 15px; 
       }
   </style>

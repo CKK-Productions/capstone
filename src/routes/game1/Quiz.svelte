@@ -72,7 +72,7 @@
         position: absolute;
         left: 860px;
         top: 200px;
-        border: 3px solid blue;
+        /* border: 3px solid blue; */
         width: 620px;
     }
     div.button {

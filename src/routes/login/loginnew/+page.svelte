@@ -56,25 +56,32 @@
         </div>
       <button type="submit">Submit</button>
     </form>
-    <h3>Don't have an account?<a href="/login/loginnew"> Click Here</a>.</h3>
+    <h3>Have an account? <a href="/login"> Click Here</a>.</h3>
 </main>
   
-  <style>
-     * {
-        box-sizing: border-box;
-      }
-      form {
-        display: flex;
-        flex-direction: column;
-        width: 300px;
-      }
+<style>
+    * {
+      box-sizing: border-box;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+    }
   
-      form > div{
-        display: flex;
-        justify-content: space-between;
-      }
+    form > div{
+      display: flex;
+      justify-content: space-between;
+    }
   
-      form > div + * {
-        margin-top: 10px;
-      }
-  </style>
+    form > div + * {
+      margin-top: 10px;
+    }
+
+    main {
+      position: absolute;
+      left: 43%;
+      top: 20%;
+      padding: 15px; 
+    }
+</style>

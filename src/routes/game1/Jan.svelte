@@ -37,6 +37,10 @@
     let expression = currDial[part][line].expression; //setting expression as the direct expression of the current line
     let count = currDial[part].length; //setting count as the line count for the dialog
 
+    export let a = 'none';
+    export let b = 'none';
+    export let c = 'none';
+    export let d = 'none';
     // function expCheck can be improved with an enum/swtich case. 
     // const JanExp = {
     //     de: 0,
@@ -81,6 +85,13 @@
     }
     
     function nextLine() {  //function for pressing the dialog button
+        if (y == 1 && line == 6) {
+            c = "show";
+            d = "show";
+        }
+        if (y == 1 && line == 9) {
+            a = "show";
+        }
         if (y == 8 && line == count - 1) {  //if statement when hitting the final dialog
             alert("Done.")
         }
@@ -114,7 +125,7 @@
     <img src={currJan} alt="Janny" /> <!--Jan's image-->
 </div>
 <div class="jan">
-    <p>{count} | {line} | {y}</p> <!--Debugging purposes-->
+    <!-- <p>{count} | {line} | {y}</p>  -->
     <button class="jan" type="button" on:click={() => nextLine()}><h2>{dialog}</h2></button> <!--Jan's interact dialog button-->
 </div>
 
@@ -123,7 +134,7 @@
         position: absolute;
         left: 1560px;
         top: 400px;
-        border: 3px solid blue;
+        /* border: 3px solid blue; */
     }
     div.janny {
         position: absolute;
@@ -131,7 +142,7 @@
         top: 150px;
         width: 223px;
         height: 190px;
-        border: 3px solid blue;
+        /* border: 3px solid blue; */
     }
     button.jan {
         width: 500px;

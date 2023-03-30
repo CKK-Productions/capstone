@@ -2,10 +2,11 @@
 	import { page } from '$app/stores';
     
     let user = { loggedIn: false };
+	user = { loggedIn: true};
 
-    function toggle() {
-        user.loggedIn = !user.loggedIn;
-    }
+    // function toggle() {
+    //     user.loggedIn = !user.loggedIn;
+    // }
 
 	function webpage(url) {
 		window.location.assign(url);
@@ -14,11 +15,11 @@
 
 <div>
 {#if user.loggedIn}
-	<button on:click={toggle} id="log">
+	<button on:click={() => webpage("./login")} id="left">
 		Log out
 	</button>
 {:else}
-	<button on:click={toggle} id="log">
+	<button on:click={() => webpage("./login")} id="left">
 		Log in
 	</button>
 {/if}
@@ -42,7 +43,7 @@
 </nav>
 
 {#if user.loggedIn}
-    <button on:click={() => webpage("/progress")} id="report">
+    <button on:click={() => webpage("/progress")} id="right">
         Progress Report
     </button>
 {/if}
@@ -50,6 +51,16 @@
 </div>
 
 <style>
+	#left {
+		position: absolute;
+		top: 1.2%;
+		left: 2%;
+	}
+	#right {
+		position: absolute;
+		top: 1.2%;
+		right: 2%;
+	}
 	div {
 		background-color: #124d6a;
 	}

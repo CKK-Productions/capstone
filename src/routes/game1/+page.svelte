@@ -6,71 +6,80 @@
     import Book from "./Book.svelte"
     import Door from "./Door.svelte"
     import Jan from "./Jan.svelte"
+    import AudioPlayer from './AudioPlayer.svelte'
     //imports for different components
 
     import {getTTS, Voice} from "../../scripts/tts";
-    //tts import
+    //tts import WIP
 
-    let currBook = 0; //for adjusting chapter
+    let currBook = 0; //for adjusting book chapter
     let currDoor = 0; //for changing door img
-
-</script>
+    
+    let qhide = "none";
+    let dhide = "show";
+    let phide = "none";
+    let bhide = "none";
+    </script>
 
 <svelte:head>
     <title>Game 1: Jan's Day</title>
     <meta name="description" content="Game 1">
 </svelte:head>
-
-<div class="door">
+<!-- <AudioPlayer {audio} /> -->
+<div class="door" style="--doordis: {dhide}">
     <!--<button on:click={() => console.log(test)}>test</button>-->
     <Door bind:z={currDoor}/> <!--Door.svelte with z value being the same as currDoor-->    
 </div>
-<div>
+<div class="quiz" style="--quizdis: {qhide}">
     <Quiz /> <!--Quiz.svelte-->
 </div>
-<div>
-    <Jan /> <!-- Jan.svelte-->
+<div class="jan">
+    <Jan bind:a={qhide} bind:b={dhide} bind:c={phide} bind:d={bhide}/> <!-- Jan.svelte-->
 </div>
 
-<div class="books">
+<div class="books" style="--bookdis: {bhide}">
     <h1>
         <Book bind:book={currBook} /> <!--Book.svelte with book value being the same as currBook | Outputing chapter value-->
     </h1>
 </div>
 
-<div class="page">
+<div class="page" style="--pagedis: {phide}">
     <Page x={currBook} /> <!--Page.svelte with x being the same as currBook | Inputing chapter value-->
 </div>
 <style>
     div {
         padding: 10px;
     }
-
-    div.door {
+    .quiz {
+        display: var(--quizdis)
+    }
+    .jan {
+        display: show;
+    }
+    .door {
         position: absolute;
         left: 300px;
-        border: 3px solid blue;
+        /* border: 3px solid blue; */
         width: 600px;
         height: 600px;
+        display: var(--doordis)
     } 
-    div.books {
+    .books {
         position: absolute;
         left: 400px;
         top: 700px;
-        border: 3px solid blue;
+        /* border: 3px solid blue; */
         width: 500px;
+        display: var(--bookdis)
     }
-    div.page {
+    .page {
         position: absolute;
         left: 1050px;
         top: 670px;
-        border: 3px solid blue;
+        /* border: 3px solid blue; */
+        display: var(--pagedis)
     }
-    div.quiz {
-        position: absolute;
-        left: 860px;
-        top: 200px;
-        border: 3px solid blue;
-        width: 620px;
+    .hide {
+        display: hide;
     }
 </style>
