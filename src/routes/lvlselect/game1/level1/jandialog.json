@@ -1,0 +1,99 @@
+{
+    "a":
+    [{
+        "dialog":"those Chains are actually cute little quiz games!",
+        "expression":"de"
+    },
+    {
+        "dialog":"as Apparent as that is",
+        "expression":"se"
+    },
+    {
+        "dialog":"i Would have already taken all that delicious evertyhign behind the door",
+        "expression":"de"
+    },
+    {
+        "dialog":"but The chains require knowledge that is beyond my understanding!",
+        "expression":"si"
+    },
+    {
+        "dialog":"see, I was never born with the ability to read! my Strong-suits are more about appearances",
+        "expression":"si"
+    },
+    {
+        "dialog":"i Like to look fancy! see My tie?",
+        "expression":"sw"
+    },
+    {
+        "dialog":"enough About me, though; more About you!",
+        "expression":"up"
+    },
+    {
+        "dialog":"look At the bottom left; you will Notice a book! click It!",
+        "expression":"de"
+    },
+    {
+        "dialog":"wow! look At all that knowledge!",
+        "expression":"se"
+    },
+    {
+        "dialog":"you Can scroll through the pages of the book using the arrows",
+        "expression":"de"
+    },
+    {
+        "dialog":"but More than that, you can answer the quizzes and break the locks!",
+        "expression":"de"
+    },
+    {
+        "dialog":"you Can answer the questions with the click one of the four buttons",
+        "expression":"de"
+    },
+    {
+        "dialog":"no Matter how many times you fail, you can always answer again!",
+        "expression":"de"
+    },
+    {
+        "dialog":"I do not recommend purposefully failing; Remember, this is all recorded and will reflect your learning",
+        "expression":"dv"
+    },
+    {
+        "dialog":"so Aim to succeed, alright?",
+        "expression":"up"
+    },
+    {
+        "dialog":"lets Get started! chapter One!",
+        "expression":"de"
+    },
+    {
+        "dialog":"oh, And if you need a silent environment, the mute option is always available!",
+        "expression":"se"
+    }],
+
+    "success":
+    [{
+        "dialog":"wow!",
+        "expression":"up"
+    },
+    {
+        "dialog":"good Job!",
+        "expression":"up"
+    },
+    {
+        "dialog":"quite The smarty!",
+        "expression":"si"
+    }],
+
+    "failure":
+    [{
+        "dialog":"how?",
+        "expression":"oe"
+    },
+    {
+        "dialog":"try That one again",
+        "expression":"oe"
+    },
+    {
+        "dialog":"...",
+        "expression":"dv"
+    }]
+}

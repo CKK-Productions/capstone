@@ -1,0 +1,67 @@
+{
+    "a":
+    [{
+        "dialog":"man!",
+        "expression":"oe"
+    },
+    {
+        "dialog":"i Sure am full of so security knowledge after that section!",
+        "expression":"de"
+    },
+    {
+        "dialog":"a Personal favorite of mine is the part about privilege escalation",
+        "expression":"de"
+    },
+    {
+        "dialog":"Janny finds it so interesting",
+        "expression":"up"
+    },
+    {
+        "dialog":"i Think the digital aspects are more entertaining than physical ones",
+        "expression":"de"
+    },
+    {
+        "dialog":"but Both are equally as important",
+        "expression":"de"
+    },
+    {
+        "dialog":"that is A big misconception with cybersecurity",
+        "expression":"de"
+    },
+    {
+        "dialog":"despite The “cyber” in the name, physical security of electronic assets is important, too!",
+        "expression":"de"
+    },
+    {
+        "dialog":"next Chain, please!",
+        "expression":"oe"
+    }],
+    
+    "success":
+    [{
+        "dialog":"keep It up!",
+        "expression":"up"
+    },
+    {
+        "dialog":"another Down",
+        "expression":"oe"
+    },
+    {
+        "dialog":"quite The jester!",
+        "expression":"si"
+    }],
+
+    "failure":
+    [{
+        "dialog":"...",
+        "expression":"bl"
+    },
+    {
+        "dialog":"cmon",
+        "expression":"sw"
+    },
+    {
+        "dialog":"...",
+        "expression":"bl"
+    }]
+}

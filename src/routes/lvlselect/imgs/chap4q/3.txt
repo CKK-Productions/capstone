@@ -1,0 +1,29 @@
+Why would you implement password masking?
+To deter tailgating
+>To deter shoulder surfing
+To deter impersonation
+To deter hoaxes
+
+A targeted e-mail attack is received by your organization's CFO. What is this an example of?
+Vishing
+Phishing
+>Whaling
+Spear phishing
+
+Which of the following environmental variables reduces the possibility of static discharges (ESD)?
+>Humidity
+Temperature
+EMI
+RFI
+
+Which of the following is a strategy that targets users based on the common websites that they frequent?
+Pre-action
+Hot/cold aisle
+SCADA
+>Watering hole
+
+If a fire occurs in the server room, which device is the best method to put it out?
+Class A extinguisher
+Class B extinguisher
+>Class C extinguisher
+Class D extinguisher

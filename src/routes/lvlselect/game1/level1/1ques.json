@@ -1,0 +1,82 @@
+{
+    "a":
+    [{
+        "question":"Which of the following is not one of the three main goals in Information Security?",
+        "answers":["Confidentiality","Auditing","Integrity","Availability"],
+        "correct":1
+    },
+    {
+        "question":"To protect against malicious attacks, what should you think like?",
+        "answers":["Hacker","Network Admin","Spoofer","Auditor"],
+        "correct":0
+    },
+    {
+        "question":"Tom sends out many e-mails containing secure information to other companies. What concept should be implemented to prove that Tom did indeed send the emails?",
+        "answers":["Authenticity","Non-repudiation","Confidentiality","Integrity"],
+        "correct":1
+    },
+    {
+        "question":"Which of the following does the A in CIA stand for when it comes to IT security?",
+        "answers":["Accountability","Assessment","Availability", "Auditing"],
+        "correct":2
+    },
+    {
+        "question":"Which of the following is the greatest risk when it comes to removable storage?",
+        "answers":["Integrity of data","Availability of data","Confidentiality of data","Accountability of data"],
+        "correct":2
+    }],
+
+    "b":
+    [{
+        "question":"When it comes to information security, what is the I in CIA?",
+        "answers":["Insurrection","Information","Indigestion","Integrity"],
+        "correct":3
+    },
+    {
+        "question":"You are developing a security plan for your organization. Which of the following is an example of a physical control?",
+        "answers":["Password","DRP","ID card","Encryption"],
+        "correct":2
+    },
+    {
+        "question":"A user receives an e-mail but the e-mail client software says the digital signature is invalid and the sender of the e-mail cannot be verified. The would-be recipient is concerned about which of the following concepts?",
+        "answers":["Confidentiality","Integrity","Remediation","Availability"],
+        "correct":1 
+    },
+    {
+        "question":"Cloud environments often reuse the same physical hardware (such as hard drives) for multiple customers. These hard drives are used and reused when customer virtual machines are created and deleted over time. what security concern does this bring up implications for?",
+        "answers":["Availability of virtual machine","Integrity of data","Data confidentiality","Hardware integrity"],
+        "correct":2 
+    },
+    {
+        "question":"Which of the following individuals uses code with little knowledge of how it works?",
+        "answers":["Hacktivist","Script kiddie","APT","Insider"],
+        "correct":1 
+    }],
+
+    "c":
+    [{
+        "question":"When is a system completely secure?",
+        "answers":["When it is updated","When it is assessed for vulnerabilities","When all anomalies have been removed","Never"],
+        "correct":3 
+    },
+    {
+        "question":"A set of computer-attacking processes that targets private organizations or nation states. Also refers to a group that persistently targets a specific entity.",
+        "answers":["APT","Defense in Depth","White Hats","Organized Crime"],
+        "correct":0 
+    },
+    {
+        "question":"A type of hacker that is contracted to break into a company's system.",
+        "answers":["Twofish","White Hat","Script Kiddie","Vampire Tap"],
+        "correct":1 
+    },
+    {
+        "question":"The idea of ensuring that a person or group cannot refute the validity of your proof against them.",
+        "answers":["Non-repudiation","Mutual Authentication","Accounting","Auditing"],
+        "correct":0 
+    },
+    {
+        "question":"The act of protecting information from unauthorized acess. It usually includes an in-depth plan on how to secure data, computers, and networks.",
+        "answers":["Information Security","Kerberos","Confidentiality","Authorization"],
+        "correct":0 
+    }]
+}

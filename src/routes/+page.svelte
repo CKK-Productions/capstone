@@ -1,94 +1,101 @@
-<script>
-	export let accname='Marco';
-	import { page } from '$app/stores';
-	
-	import Game1 from "./imgs/game1.jpg";
-	import Game2 from "./imgs/game2.jpg";
-	
-	import YAH from "./imgs/yahcrop.png";
-	function webpage(url) {
-		window.location.assign(url);
-	}
-
-	let game = {two: false};
-
-</script>
-
 <svelte:head>
-	<title>Level Select</title>
-	<meta name="description" content="The Middle Space" />
+    <title>Log In</title>
+    <meta name="description" content="Log into your account">
 </svelte:head>
 
-<!-- text for asking to sign in-->
-<section>
-	<div> <!--class="aspectwrapper"-->
-		<div class id="welcome">
-			<h1>
-				Hello, {accname}!
-			</h1>
-		</div>
-		<div class="g1">
-			<img src={Game1} on:click={() => webpage("/game1")} alt="Game 1 icon" />
-		</div>
-		<div class="g2">
-			<img src={Game2} on:click={() => webpage("/game2")} alt="Game 2 icon" />
-		</div>
-		
-		{#if game.two}
-			<div class="right">
-				<img src={YAH} alt="you are here" class="yah"/>
-			</div>
-		{:else}
-			<div class="left">		
-				<img src={YAH} alt="you are here" class="yah"/>
-			</div>
-		{/if}
-		
-	</div>
-</section>
+<script lang="ts">
+  import Logo from "./logo.png";
 
-<style>
-	@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+  function onSubmit(e) {
+    const formData = new FormData(e.target);
+  
+    const data = {};
+    for (let field of formData) {
+      const [key, value] = field;
+      data[key] = value;
+    }
+    console.log(data)
+  }
+</script>
 
-	/* .aspectwrapper {
-		display: inline-block;
-		width: 100%;
-		position: relative;
-	} */
-	.g1 {
-		position: absolute;
-		top: 30%;
-		left: 28.5%;
-		border: 3px ridge #355dd4;
-		width:417px;
-		height: 555px;
-	}
-	.g2 {
-		position: absolute;
-		top: 30%;
-		left: 54.7%;
-		border: 3px ridge #355dd4;
-		width: 417px;
-		height: 555px;
-	}
-	#welcome {
-		font-family: 'Quicksand', sans-serif;
-		position: absolute;
-		top: 20%;
-		left: 47%;
-	}
-	.left {
-		position: absolute;
-		top: 75%;
-		left: 31.8%; 
-	}
-	.right {
-		position: absolute;
-		top: 75%;
-		left: 58%;
-	}
-	.yah {
-		width: 250px;
-		height: 250px;
-	}
-</style>
+<body>
+<main>
+  <div class="logo">
+    <img src={Logo} alt="Logo" />
+  </div>
+  <div class="bar">
+  </div>
+    <form on:submit|preventDefault={onSubmit}>
+        <div>
+          <label for="name"><p>Email</p></label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            value=""
+          />
+        </div>
+        <div>
+          <label for="name"><p>Password</p></label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            value=""
+          />
+        </div>
+      <button type="submit">Submit</button>
+    </form>
+    <p>Don't have an account? <a href="/login"> Click Here</a>.</p>
+    <p><a href="/lvlselect"> Temp</a></p>
+</main>
+</body>
+
+  <style>
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+     * {
+        box-sizing: border-box;
+        
+      }
+      body {
+        background-color: #1e90b0;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+      }
+  
+      form > div{
+        display: flex;
+        justify-content: space-between;
+      }
+  
+      form > div + * {
+        margin-top: 10px;
+      }
+      main {
+        position: absolute;
+        /* border: 3px blue solid; */
+        left: 49%;
+        top: 25%;
+        padding: 15px; 
+      }
+      .logo {
+        position: absolute;
+        left: -80%;
+        top: 0%;
+      }
+      p {
+        font-weight: bold;
+        font-family: 'Open Sans', sans-serif;
+      }
+      .bar {
+        position:absolute;
+        border: 2px white solid;
+        left: -5%;
+        top: -5%;
+        height: 100%;
+      }
+  </style>
