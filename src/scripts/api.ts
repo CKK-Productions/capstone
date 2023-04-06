@@ -11,8 +11,8 @@ async function loginReq(email: string, password: string){
     const res = await response.json();
     console.log(res);
 
-    if (res.login == "true") {
-        return 1;
+    if (res.login > 0) {
+        return res.login;
     }
 }
 

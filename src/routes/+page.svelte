@@ -6,8 +6,6 @@
 <script lang="ts">
   import Logo from "./logo.png";
   import { loginReq } from "../scripts/api";
-
-  export let logIn = false;
   async function onSubmit(e) {
     const formData = new FormData(e.target);
     let resp = 0;
@@ -20,9 +18,8 @@
     console.log(data)
     resp = await loginReq(data["email"], data["password"]);
     
-    // temporary log in | does not carry employee_id
-    if (resp == 1) {
-      let logIn = true;
+    // temporary log in | does not carry employee_id | needs that carry
+    if (resp > 0) {
       window.location.assign("./lvlselect/");
     }
   }
