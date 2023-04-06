@@ -19,7 +19,7 @@
 		Log out
 	</button>
 {:else}
-	<button on:click={webpage("./")} id="left">
+	<button on:click={webpage("../")} id="left">
 		Logging out
 	</button>
 {/if}
@@ -29,8 +29,8 @@
         <path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
     </svg>
     <ul>
-        <li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-            <a href="/">Cyber-Interactive</a>
+        <li aria-current={$page.url.pathname === './lvlselect/' ? 'page' : undefined}>
+            <a href="../lvlselect">Cyber-Interactive</a>
         </li>
         <!-- Remove later once SPA is in-->
         <!-- <li aria-current={$page.url.pathname === '/login' ? 'page' : undefined}>
@@ -43,7 +43,7 @@
 </nav>
 
 {#if user.loggedIn}
-    <button on:click={() => webpage("/progress")} id="right">
+    <button on:click={() => webpage("/lvlselect/progress")} id="right">
         Progress Report
     </button>
 {/if}

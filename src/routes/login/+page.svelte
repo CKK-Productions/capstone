@@ -4,20 +4,18 @@
 </svelte:head>
 
 <script lang="ts">
+  import { accReq } from "../../scripts/api";
 
-
-
-    function onSubmit(e) {
-      const formData = new FormData(e.target);
-  
-      const data = {};
-      for (let field of formData) {
-        const [key, value] = field;
-        data[key] = value;
-      }
-      const {fname, lname, email, password} = data;
-      console.log(fname);
+  async function onSubmit(e) {
+    const formData = new FormData(e.target);
+    const data = {};
+    for (let field of formData) {
+      const [key, value] = field;
+      data[key] = value;
     }
+    console.log(data)
+    await accReq(data["fname"], data["lname"], data["email"], data["password"]);
+}
 
     import Logo from "../logo.png";
 </script>
@@ -34,8 +32,8 @@
             <label for="fname">First Name</label>
             <input
               type="text"
-              id="Fname"
-              name="Fname"
+              id="fname"
+              name="fname"
               value=""
             />
           </div>
@@ -43,8 +41,8 @@
             <label for="lname">Last Name</label>
             <input
               type="text"
-              id="Lname"
-              name="Lname"
+              id="lname"
+              name="lname"
               value=""
             />
           </div>

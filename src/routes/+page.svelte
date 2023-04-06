@@ -5,16 +5,26 @@
 
 <script lang="ts">
   import Logo from "./logo.png";
+  import { loginReq } from "../scripts/api";
 
-  function onSubmit(e) {
+  export let logIn = false;
+  async function onSubmit(e) {
     const formData = new FormData(e.target);
-  
+    let resp = 0;
+
     const data = {};
     for (let field of formData) {
       const [key, value] = field;
       data[key] = value;
     }
     console.log(data)
+    resp = await loginReq(data["email"], data["password"]);
+    
+    // temporary log in | does not carry employee_id
+    if (resp == 1) {
+      let logIn = true;
+      window.location.assign("./lvlselect/");
+    }
   }
 </script>
 
@@ -27,7 +37,7 @@
   </div>
     <form on:submit|preventDefault={onSubmit}>
         <div>
-          <label for="name"><p>Email</p></label>
+          <label for="email"><p>Email</p></label>
           <input
             type="text"
             id="email"
@@ -36,7 +46,7 @@
           />
         </div>
         <div>
-          <label for="name"><p>Password</p></label>
+          <label for="password"><p>Password</p></label>
           <input
             type="password"
             id="password"
@@ -47,7 +57,7 @@
       <button type="submit">Submit</button>
     </form>
     <p>Don't have an account? <a href="/login"> Click Here</a>.</p>
-    <p><a href="/lvlselect"> Temp</a></p>
+    <!--<p><a href="/lvlselect"> Temp</a></p>-->
 </main>
 </body>
 
