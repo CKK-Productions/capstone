@@ -13,8 +13,20 @@
       const [key, value] = field;
       data[key] = value;
     }
-    console.log(data)
-    await accReq(data["fname"], data["lname"], data["email"], data["password"]);
+    console.log(data["password"].length)
+    if (data["email"].includes("@")) {
+      if (data["password"].length < 8) {
+        alert("Please have at least 8 characters for your password");
+      }
+      else {
+        console.log(data);
+        await accReq(data["fname"], data["lname"], data["email"], data["password"]);
+        alert("Account Successfully Created!");
+      }
+    }
+    else {
+      alert("Please insert an actual email");
+    }
 }
 
     import Logo from "../logo.png";
@@ -35,6 +47,7 @@
               id="fname"
               name="fname"
               value=""
+              required
             />
           </div>
           <div>
@@ -44,6 +57,7 @@
               id="lname"
               name="lname"
               value=""
+              required
             />
           </div>
         <div>
@@ -53,6 +67,7 @@
             id="email"
             name="email"
             value=""
+            required
           />
         </div>
         <div>
@@ -62,6 +77,7 @@
             id="password"
              name="password"
              value=""
+             required
             />
         </div>
       <button type="submit">Submit</button>

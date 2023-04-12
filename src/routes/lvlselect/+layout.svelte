@@ -1,11 +1,29 @@
-<script>
+<script lang="ts">
+	//"context='module'"
+	// import { writable } from 'svelte/store';
     import Header from './Header.svelte';
+	// import type {UserInfo} from './stores';
+	// import {Router, Route} from "svelte-routing";
+	// import home from './lvlselect/+page.svelte';
+
+	// export const user = writable<UserInfo>({uid: 0,username: "test"});
+	// let localUser : UserInfo;
+
+	// const sub = user.subscribe( value => {
+	// 	localUser = value;
+	// 	console.log(`Value = ${value.uid}, ${value.username}`);
+	// })
 </script>
 
-<div class="app">
-    <Header />
+<div class="app"> 
+	<!-- {#if localUser.uid > 0} -->
+    	<Header />
+	<!-- {/if} -->
 	<body>
     	<main>
+			<!-- <Router>
+				<Route path="/" component={home} />
+			</Router> -->
     		<slot />
     	</main>
 	</body>

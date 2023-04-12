@@ -3,12 +3,24 @@
     <meta name="description" content="Log into your account">
 </svelte:head>
 
-<script lang="ts">
+<script context="module" lang="ts">
   import Logo from "./logo.png";
   import { loginReq } from "../scripts/api";
+  import { tempNum } from "../scripts/api";
+  // import type {UserInfo} from "./stores";
+	// import {user} from './lvlselect/+layout.svelte';
+
+  // function setCookie(cname, cvalue, exdays) {
+  //   const d = new Date();
+  //   d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  //   let expires = "expires="+ d.toUTCString();
+  //   document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+  // }
+
   async function onSubmit(e) {
     const formData = new FormData(e.target);
     let resp = 0;
+    const curr = "current";
 
     const data = {};
     for (let field of formData) {
@@ -19,10 +31,20 @@
     resp = await loginReq(data["email"], data["password"]);
     
     // temporary log in | does not carry employee_id | needs that carry
-    if (resp > 0) {
+    if (resp.login > 0) {
+      tempNum(resp.login, curr);
+      // setCookie("loggedIN", resp.login, 1);
+      // const loggedUser: UserInfo = {uid: resp.login, username: resp.employee};
+      // user.set(loggedUser);
       window.location.assign("./lvlselect/");
     }
+    else {
+      alert("Invalid Login Data")
+    }
+    
   }
+
+  
 </script>
 
 <body>
@@ -40,6 +62,7 @@
             id="email"
             name="email"
             value=""
+            required
           />
         </div>
         <div>
@@ -49,6 +72,7 @@
             id="password"
             name="password"
             value=""
+            required
           />
         </div>
       <button type="submit">Submit</button>

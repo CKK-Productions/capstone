@@ -28,6 +28,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@rollup/plugin-json": "^6.0.0"
+		"@rollup/plugin-json": "^6.0.0",
+		"svelte-routing": "^1.6.0",
+		"svelte-spa-router": "^3.3.0"
 	}
 }

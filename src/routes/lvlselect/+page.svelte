@@ -1,4 +1,8 @@
-<script>
+<script lang="ts">
+	//remaining:
+	//API for:
+	//	get account name?(await)
+	//	get account progress to lock/unlock game 2
 	export let accname='Marco';
 	import { page } from '$app/stores';
 	
@@ -6,11 +10,33 @@
 	import Game2 from "./imgs/game2.jpg";
 	
 	import YAH from "./imgs/yahcrop.png";
-	function webpage(url) {
+
+	// import {user} from "./+layout.svelte";
+	// import type {UserInfo} from "../stores";
+
+	function webpage(url : string) {
 		window.location.assign(url);
 	}
 
 	let game = {two: false};
+	
+	// async function cookieArrive() {
+	// 	const res = document.cookie;
+	// 	const data = await res.json();
+
+	// 	if (res.ok) {
+	// 		return data;
+	// 	} else{
+	// 		throw new Error(data);
+	// 	}
+
+	// }
+	// let localUser : UserInfo;
+
+	// const sub = user.subscribe( value => {
+	// 	localUser = value;
+	// 	console.log(`Value = ${value.uid}, ${value.username}`);
+	// });
 
 </script>
 
@@ -22,10 +48,15 @@
 <!-- text for asking to sign in-->
 <section>
 	<div> <!--class="aspectwrapper"-->
-		<div class id="welcome">
-			<h1>
-				Hello, {accname}!
-			</h1>
+		<div id="welcome">
+			<!-- {#await cookieArrive()}
+				<h1> Loading...</h1>
+			{:then user}
+				<h1> Hello, {user.employee}!</h1>
+			{:catch error}
+				<h1> Failed D:</h1>
+			{/await} -->
+			<h1> Hello, {accname}!</h1>
 		</div>
 		<div class="g1">
 			<img src={Game1} on:click={() => webpage("./lvlselect/game1")} alt="Game 1 icon" />

@@ -1,8 +1,12 @@
 <script>
 	import { page } from '$app/stores';
-    
-    let user = { loggedIn: false };
+	import { tempRid } from "../../scripts/api";
+
+	let user = { loggedIn: false };
 	user = { loggedIn: true};
+
+	let accNum = 0;
+	console.log(accNum)
 
     // function toggle() {
     //     user.loggedIn = !user.loggedIn;
@@ -11,11 +15,16 @@
 	function webpage(url) {
 		window.location.assign(url);
 	}
+
+	function funnybutton() {
+		tempRid();
+		user = {loggedIn: false};
+	}
 </script>
 
 <div>
 {#if user.loggedIn}
-	<button on:click={() => user = { loggedIn: false}} id="left">
+	<button on:click={() => funnybutton() } id="left">
 		Log out
 	</button>
 {:else}
@@ -64,18 +73,6 @@
 	div {
 		background-color: #124d6a;
 	}
-	#log {
-		width: 100px;
-		text-align: center;
-		float: left;
-	}
-
-	#report {
-		width: 100px;
-		text-align: center;
-		float: right;
-	}
-
     button {
         font-family: inherit;
         font-size: inherit;
@@ -84,11 +81,6 @@
         box-sizing: border-box;
         border: 1px solid #1e90b0
     }
-
-	header {
-		display: flex;
-		justify-content: space-between;
-	}
 
 	nav {
 		display: flex;
