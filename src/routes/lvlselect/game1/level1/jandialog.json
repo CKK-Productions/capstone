@@ -1,7 +1,7 @@
 {
     "a":
     [{
-        "dialog":"those Chains are actually cute little quiz games!",
+        "dialog":"those Chains and lock are actually cute little quiz games!",
         "expression":"de"
     },
     {
@@ -9,7 +9,7 @@
         "expression":"se"
     },
     {
-        "dialog":"i Would have already taken all that delicious evertyhign behind the door",
+        "dialog":"i Would have already taken all that delicious everything behind the door",
         "expression":"de"
     },
     {
@@ -29,7 +29,7 @@
         "expression":"up"
     },
     {
-        "dialog":"look At the bottom left; you will Notice a book! click It!",
+        "dialog":"look At the bottom left; you will Notice a book! clicking It will set the page on the bottom right!",
         "expression":"de"
     },
     {
@@ -41,7 +41,7 @@
         "expression":"de"
     },
     {
-        "dialog":"but More than that, you can answer the quizzes and break the locks!",
+        "dialog":"but More than that, you can answer the quizzes and break the chains!",
         "expression":"de"
     },
     {

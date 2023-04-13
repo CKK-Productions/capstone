@@ -236,11 +236,15 @@
         top: 400px;
         width: 223px;
         height: 190px;
+        padding: 4px;
+        background-color: aquamarine; 
         /* border: 3px solid blue; */
     }
     button.jan {
         width: 500px;
         height: 200px;
+        background-color: aliceblue;
+        color: black;
     }
     button.cnt {
         width: 100px;

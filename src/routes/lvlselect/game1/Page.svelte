@@ -120,8 +120,10 @@
     <img on:click={prevPage} src={LeftArrow} alt="Left Arrow" id="la"> 
     <h3 id="count"> Page {y + 1}/{count} </h3>
     <img on:click={nextPage} src={RightArrow} alt="Right Arrow" id="ra">
+    <img on:click={prevPage} src={LeftArrow} alt="Left Arrow" id="lab"> 
+    <img on:click={nextPage} src={RightArrow} alt="Right Arrow" id="rab">
 </div>
-<div> <!-- Page image -->
+<div class="body"> <!-- Page image -->
     <img src={page} alt ="the page" id="pg"/>
 </div>
 
@@ -144,6 +146,20 @@
         top: 0.5%;
         left: 0.5%
     }
+    #rab {
+        position: absolute;
+        float: right;
+        width: 9%;
+        top: 95%;
+        right: 1.2%;
+    }
+    #lab {
+        position: absolute;
+        float: left;
+        width: 9%;
+        top: 95%;
+        left: 1.2%
+    }
     #count {
         position: relative;
         left: 46%;
@@ -156,5 +172,8 @@
         width: 98%;
         height: 3.5%;
         background-color: aquamarine;
+    }
+    .body {
+        border: 3px #355dd4 solid;
     }
 </style>

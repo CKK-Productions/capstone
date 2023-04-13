@@ -65,15 +65,15 @@
         "expression":""
     },
     {
-        "dialog":"...",
+        "dialog":"That is enough flaunting for me, however. Your files are begging to be encrypted",
         "expression":""
     },
     {
-        "dialog":"That is enough flaunting for me, however. I have to prepare for something even larger than me",
+        "dialog":"And I am just the virus for the job.",
         "expression":""
     },
     {
         "dialog":"i Hope that our paths never cross again",
-        "expression":""
+        "expression":"de"
     }]
 }

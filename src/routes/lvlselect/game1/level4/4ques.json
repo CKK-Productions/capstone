@@ -29,7 +29,7 @@
     "b":
     [{
         "question":"Of the following definitions, which would be an example of eavesdropping?",
-        "answers":["Overhearing parts of a conversation","Monitoring network traffic","Another person looking throuhg your files","A computer capturing information from a sender"],
+        "answers":["Overhearing parts of a conversation","Monitoring network traffic","Another person looking through your files","A computer capturing information from a sender"],
         "correct":0 
     },
     {

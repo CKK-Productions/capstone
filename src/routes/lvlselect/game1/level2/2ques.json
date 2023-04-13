@@ -55,7 +55,7 @@
 
     "c":
     [{
-        "question":"Which of the following can be described as the act of exploiting a bug or flaw in software to gain access to resources that normally would be portected?",
+        "question":"Which of the following can be described as the act of exploiting a bug or flaw in software to gain access to resources that normally would be protected?",
         "answers":["Privilege escalation","Chain of custody","Default account","Backdoor"],
         "correct":0 
     },
@@ -71,7 +71,7 @@
     },
     {
         "question":"Your boss asks you to limit the wireless signal of a WAP from going outside the building. What should you do?",
-        "answers":["Put the atenna on the exterior of the building","Disable the SSID","Enable MAC filtering","Decreate the poewer levels of the WAP"],
+        "answers":["Put the atenna on the exterior of the building","Disable the SSID","Enable MAC filtering","Decrease the power levels of the WAP"],
         "correct":3 
     },
     {

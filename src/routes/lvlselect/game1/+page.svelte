@@ -1,24 +1,18 @@
 <script lang="ts">
     //remaining:
-    //CSS touchupps
-    //  book background
-    //  page?
-    //  quiz?
-    //  end button
+    //audio
     //sprite insert
-    //dialog fix
     //timer?
     //API for:
     //  get temp num
     //  insert game completion along with fail count
-
 
     import Quiz from "./Quiz.svelte";
     import Page from "./Page.svelte"
     import Book from "./Book.svelte"
     import Door from "./Door.svelte"
     import Jan from "./Jan.svelte"
-    import AudioPlayer from './AudioPlayer.svelte'
+    // import Audio from "./Audio.svelte"
     
     function webpage(url) {
 		window.location.assign(url);
@@ -26,7 +20,7 @@
 
     //imports for different components
 
-    import {getTTS, Voice} from "../../../scripts/tts";
+    // import {getTTS, Voice} from "../../../scripts/tts";
     //tts import WIP
 
     let currBook = 0; //for adjusting book chapter
@@ -48,9 +42,10 @@
     <title>Game 1: Jan's Day</title>
     <meta name="description" content="Game 1">
 </svelte:head>
-<!-- <AudioPlayer {audio} /> -->
+<!-- <div class="audio">
+    <Audio />
+</div> -->
 <div class="door" style="--doordis: {dohide}">
-    <!--<button on:click={() => console.log(test)}>test</button>-->
     <Door bind:z={currDoor} bind:v={gamecomp}/> <!--Door.svelte with z value being the same as currDoor-->    
 </div>
 <div class="quiz" style="--quizdis: {quhide}">
@@ -71,11 +66,26 @@
 </div>
 <div class="end" style="--endis: {endhide}">
     <h2>Score Submitted</h2>
-    <button on:click={() => webpage("./")} id="left">
-        Return to Main Menu
+    <button id="return" on:click={() => webpage("./")}>
+        <h2>Return to Main Menu</h2>
     </button>
 </div>
+<!-- <div class="audio">
+    <Audio />
+</div> -->
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+    h2 {
+        font-family: 'Quicksand', sans-serif;
+        text-align: center;
+        position: relative;
+        top: 20%;
+    }
+    #return {
+        position: relative;
+        top: 20%;
+        left: 32.5%;
+    }
     div {
         padding: 10px;
     }
@@ -99,7 +109,9 @@
         top: 700px;
         /* border: 3px solid blue; */
         width: 500px;
-        display: var(--bookdis)
+        display: var(--bookdis);
+        background-color: rgb(144, 73, 46);
+        border: 3px solid rgb(93, 48, 30);
     }
     .page {
         position: absolute;
@@ -109,12 +121,17 @@
         display: var(--pagedis)
     }
     .end {
-        background-color: rgb(55, 75, 230);
+        background-color: rgb(115, 130, 242);
         position: absolute;
         width: 600px;
         height: 250px;
         left: 38%;
         top: 35%;
         display: var(--endis);
+    }
+    .audio {
+        position: absolute;
+        top:4%;
+        left:82%;
     }
 </style>

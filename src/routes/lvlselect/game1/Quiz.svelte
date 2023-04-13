@@ -104,13 +104,13 @@
 </script>
     
     <div class="quiz">
-        <button id="question" type="button" disabled><h2>{question} {qansw}</h2></button>
+        <button id="question" type="button" disabled><h2>{question}</h2></button>
         <div class="button">
             <button class="answer" disabled='{canClick(item)}' on:click={() => checkRes(0)}><h2>{answers[0]}</h2></button>
             <button class="answer" disabled='{canClick(item)}' on:click={() => checkRes(1)}><h2>{answers[1]}</h2></button>
             <button class="answer" disabled='{canClick(item)}' on:click={() => checkRes(2)}><h2>{answers[2]}</h2></button>
             <button class="answer" disabled='{canClick(item)}' on:click={() => checkRes(3)}><h2>{answers[3]}</h2></button>
-            <button class="answer" disabled='{canClick(item)}' on:click={() => checkWin()}><h2>Win</h2></button>
+            <!-- <button class="answer" disabled='{canClick(item)}' on:click={() => checkWin()}><h2>Win</h2></button> -->
         </div> 
     </div>
 

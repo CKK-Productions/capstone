@@ -33,11 +33,11 @@
         "expression":"dv"
     },
     {
-        "dialog":"oh! it Looks like the last lock has a timer!",
+        "dialog":"eep!",
         "expression":"se"
     },
     {
-        "dialog":"who Knows what will happen when it hits 0!",
+        "dialog":"oh! it Looks like the last lock has a timer! who Knows what will happen when it hits 0!",
         "expression":"se"
     },
     {

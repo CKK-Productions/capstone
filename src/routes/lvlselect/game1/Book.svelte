@@ -47,18 +47,39 @@
 
 <style>
     #b1 {
-        display: var(--b1dis)
+        display: var(--b1dis);
+        position: relative;
+        left:-2%;
+        border-bottom: 3px rgb(88, 48, 25) solid;
+        border-top: 3px rgb(88, 48, 25) solid;
+        background-color:rgb(50, 28, 14);
     }
     #b2 {
-        display: var(--b2dis)
+        display: var(--b2dis);
+        position: relative;
+        left:-2%;
+        border-bottom: 3px rgb(88, 48, 25) solid;
+        background-color:rgb(50, 28, 14);
     }
     #b3 {
-        display: var(--b3dis)
+        display: var(--b3dis);
+        position: relative;
+        left:-2%;
+        border-bottom: 3px rgb(88, 48, 25) solid;
+        background-color:rgb(50, 28, 14);
     }
     #b4 {
-        display: var(--b4dis)
+        display: var(--b4dis);
+        position: relative;
+        left:-2%;
+        border-bottom: 3px rgb(88, 48, 25) solid;
+        background-color:rgb(50, 28, 14);
     }
     #b5 {
-        display: var(--b5dis)
+        display: var(--b5dis);
+        position: relative;
+        left:-2%;
+        border-bottom: 3px rgb(88, 48, 25) solid;
+        background-color:rgb(50, 28, 14);
     }
 </style>
