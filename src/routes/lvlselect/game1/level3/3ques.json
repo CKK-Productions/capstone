@@ -34,7 +34,7 @@
     },
     {
         "question":"The main objective of risk management in an organization is to reduce risk to a level: ",
-        "answers":["the organization will mitigate","where the ARO equals the SLE","the organization will accept","where the ALe is lower than the SLE"],
+        "answers":["the organization will mitigate","where the ARO equals the SLE","the organization will accept","where the ALE is lower than the SLE"],
         "correct":2 
     },
     {

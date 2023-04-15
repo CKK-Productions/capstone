@@ -9,7 +9,7 @@
 	import Game1 from "./imgs/game1.jpg";
 	import Game2 from "./imgs/game2.jpg";
 	
-	import YAH from "./imgs/yahcrop.png";
+	import YAH from "./imgs/yah2.png";
 
 	// import {user} from "./+layout.svelte";
 	// import type {UserInfo} from "../stores";
@@ -120,6 +120,6 @@
 	}
 	.yah {
 		width: 250px;
-		height: 250px;
+		height: 270px;
 	}
 </style>

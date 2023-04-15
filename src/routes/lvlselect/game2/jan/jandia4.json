@@ -1,23 +1,45 @@
 {
     "a":
         [{
-            "dialog":"",
-            "expression":""
+            "dialog":"So you've attempted half of these cat photos.",
+            "expression":"no"
         },
         {
-            "dialog":"",
-            "expression":""
+            "dialog":"Are you just a massive cat fan?",
+            "expression":"mo"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"Are these cats THAT important to you?",
+            "expression":"mo"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"Important enough to CONTINUOUS TRY TO RUIN MY WORK?",
+            "expression":"sp"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"I really don't understand.",
+            "expression":"no"
+        }],
+        
+    "b":
+        [{
+            "dialog":"So you've attempted half of these cat photos.",
+            "expression":"no"
+        },
+        {
+            "dialog":"Glad to see you still struggle this deep in.",
+            "expression":"sm"
+        },
+		{
+            "dialog":"You know, is there a purpose to even losing these photos?",
+            "expression":"no"
+        },
+		{
+            "dialog":"You're losing everything anyway",
+            "expression":"mo"
+        },
+		{
+            "dialog":"Just sit still and let me work my magic.",
+            "expression":"mo"
         }]
 }

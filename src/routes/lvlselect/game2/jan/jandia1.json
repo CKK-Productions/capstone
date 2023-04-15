@@ -1,23 +1,45 @@
 {
     "a":
         [{
-            "dialog":"",
-            "expression":""
+            "dialog":"HEY.",
+            "expression":"st"
         },
         {
-            "dialog":"",
-            "expression":""
+            "dialog":"WHAT DID YOU JUST DO.",
+            "expression":"de"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"I SAW THAT. HOW DID YOU DO THAT??",
+            "expression":"de"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"Do me a favor?",
+            "expression":"no"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"Please don't touch anymore files. Please and thank you.",
+            "expression":"no"
+        }],
+
+    "b":
+        [{
+            "dialog":"Oh hey, so you CAN interact with them.",
+            "expression":"no"
+        },
+        {
+            "dialog":"That was kinda tragic, though.",
+            "expression":"sm"
+        },
+		{
+            "dialog":"Now that file is lost to time.",
+            "expression":"sm"
+        },
+		{
+            "dialog":"Do me a favor?",
+            "expression":"no"
+        },
+		{
+            "dialog":"Feel free to fail another one. I think it'd be funny",
+            "expression":"mo"
         }]
 }

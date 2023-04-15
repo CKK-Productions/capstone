@@ -110,7 +110,7 @@
             <button class="answer" disabled='{canClick(item)}' on:click={() => checkRes(1)}><h2>{answers[1]}</h2></button>
             <button class="answer" disabled='{canClick(item)}' on:click={() => checkRes(2)}><h2>{answers[2]}</h2></button>
             <button class="answer" disabled='{canClick(item)}' on:click={() => checkRes(3)}><h2>{answers[3]}</h2></button>
-            <!-- <button class="answer" disabled='{canClick(item)}' on:click={() => checkWin()}><h2>Win</h2></button> -->
+            <button class="answer" disabled='{canClick(item)}' on:click={() => checkWin()}><h2>Win</h2></button>
         </div> 
     </div>
 

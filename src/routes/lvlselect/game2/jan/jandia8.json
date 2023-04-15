@@ -1,23 +1,52 @@
 {
     "a":
         [{
-            "dialog":"",
-            "expression":""
+            "dialog":"It would appear that all is said and done now.",
+            "expression":"no"
         },
         {
-            "dialog":"",
-            "expression":""
+            "dialog":"Did you have fun being a slight annoyance?",
+            "expression":"no"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"I'm sure you did.",
+            "expression":"mo"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"You were persistent on saving random cat images until the very end.",
+            "expression":"no"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"So I give praise to your tenacity.",
+            "expression":"no"
+        },
+		{
+            "dialog":"But your gameplan?",
+            "expression":"mo"
+        }],
+    "b":
+        [{
+            "dialog":"It would appear that all is said and done now.",
+            "expression":"no"
+        },
+        {
+            "dialog":"Did you have fun being a slight annoyance?",
+            "expression":"no"
+        },
+		{
+            "dialog":"I'm sure you did.",
+            "expression":"mo"
+        },
+		{
+            "dialog":"You were persistent on saving random cat images until the very end.",
+            "expression":"no"
+        },
+		{
+            "dialog":"So I give praise to your tenacity.",
+            "expression":"no"
+        },
+		{
+            "dialog":"But your gameplan?",
+            "expression":"mo"
         }]
 }

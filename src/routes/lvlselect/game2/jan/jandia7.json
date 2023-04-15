@@ -1,23 +1,45 @@
 {
     "a":
         [{
-            "dialog":"",
-            "expression":""
+            "dialog":"Just a nice fun fast fact for you since you've been ever so busy.",
+            "expression":"no"
         },
         {
-            "dialog":"",
-            "expression":""
+            "dialog":"I'm almost done encrypting everything else in here.",
+            "expression":"mo"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"While you've been busy with your sweet lil cat files, I've been more productive than you'll ever be.",
+            "expression":"mo"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"I think I deserve a break.",
+            "expression":"no"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"I'll take a nice seat with my digital popcorn and watch you do your last fruitless file before it's all over.",
+            "expression":"sm"
+        }],
+        
+    "b":
+        [{
+            "dialog":"Nice going, you tech whiz.",
+            "expression":"sm"
+        },
+        {
+            "dialog":"Let me give you a little secret from yours personally",
+            "expression":"no"
+        },
+		{
+            "dialog":"I'm practically done with all your other files.",
+            "expression":"mo"
+        },
+		{
+            "dialog":"Out of satisfaction, however, I think I wanna see you fail one more time.",
+            "expression":"sm"
+        },
+		{
+            "dialog":"So you go girl! Give us nothing!",
+            "expression":"mo"
         }]
 }

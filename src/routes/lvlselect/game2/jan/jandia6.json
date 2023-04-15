@@ -1,23 +1,45 @@
 {
     "a":
         [{
-            "dialog":"",
-            "expression":""
+            "dialog":"The dynamic of these encrypted files is interesting, honestly.",
+            "expression":"no"
         },
         {
-            "dialog":"",
-            "expression":""
+            "dialog":"Just like my door.exe, the encryption is locked behind questions.",
+            "expression":"no"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"There is still NO PURPOSE of decrypting them.",
+            "expression":"st"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"Other than being a nuisance for a short period of time",
+            "expression":"mo"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"You do know I'll just come back for these files when I'm done with the rest of the files, right?",
+            "expression":"sm"
+        }],
+        
+    "b":
+        [{
+            "dialog":"Don't you think the encryption system is a bit funny?",
+            "expression":"sm"
+        },
+        {
+            "dialog":"It's just like the chains blocking the way before.",
+            "expression":"no"
+        },
+		{
+            "dialog":"I was lying about not understanding it all; I most definitely can read and write, myself.",
+            "expression":"mo"
+        },
+		{
+            "dialog":"Just needed someone with privilege to let me out of my cage.",
+            "expression":"no"
+        },
+		{
+            "dialog":"Now time for me is nothing 'cause I'm counting no age.",
+            "expression":"sp"
         }]
 }

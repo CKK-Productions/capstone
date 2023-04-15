@@ -61,7 +61,7 @@
     },
     {
         "question":"A targeted e-mail attack is received by your organization's CFO. What is this an example of?",
-        "answers":["Vishing","Phsihing","Whaling","Spear phishing"],
+        "answers":["Vishing","Phishing","Whaling","Spear phishing"],
         "correct":2 
     },
     {

@@ -136,29 +136,33 @@
         position: absolute;
         float: right;
         width: 9%;
-        top: 0.5%;
-        right: 0.5%;
+        height: 3.3%;
+        top: 0.7%;
+        right: 1%;
     }
     #la {
         position: absolute;
         float: left;
         width: 9%;
-        top: 0.5%;
-        left: 0.5%
+        height: 3.3%;
+        top: 0.7%;
+        left: 1%
     }
     #rab {
         position: absolute;
         float: right;
         width: 9%;
+        height: 3.3%;
         top: 95%;
-        right: 1.2%;
+        right: 1.5%
     }
     #lab {
         position: absolute;
         float: left;
         width: 9%;
+        height: 3.3%;
         top: 95%;
-        left: 1.2%
+        left: 1.5%
     }
     #count {
         position: relative;

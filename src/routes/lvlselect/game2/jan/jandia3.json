@@ -1,23 +1,45 @@
 {
     "a":
         [{
-            "dialog":"",
-            "expression":""
+            "dialog":"What purpose does fixing these small number of files do for you?",
+            "expression":"no"
         },
         {
-            "dialog":"",
-            "expression":""
+            "dialog":"Like, there's really no purpose.",
+            "expression":"sp"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"I'm actually encrypting more files than you're fixing right now.",
+            "expression":"no"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"There is genuinely no point to this.",
+            "expression":"no"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"So stop.",
+            "expression":"st"
+        }],
+        
+    "b":
+        [{
+            "dialog":"There's gotta be something philosophical about this.",
+            "expression":"no"
+        },
+        {
+            "dialog":"Ever hear of King Sisyphus?",
+            "expression":"no"
+        },
+		{
+            "dialog":"He cheated death twice by being ever so clever.",
+            "expression":"no"
+        },
+		{
+            "dialog":"His punishment was rolling a rock up a hill just for it to roll down the hill for eternity.",
+            "expression":"no"
+        },
+		{
+            "dialog":"A fruitless endeavor. Just like this!",
+            "expression":"sm"
         }]
 }

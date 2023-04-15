@@ -37,7 +37,7 @@
         "expression":"se"
     },
     {
-        "dialog":"oh! it Looks like the last lock has a timer! who Knows what will happen when it hits 0!",
+        "dialog":"oh! it Looks like the last lock has a timer with invisible minutes! who Knows what will happen when it hits 0!",
         "expression":"se"
     },
     {

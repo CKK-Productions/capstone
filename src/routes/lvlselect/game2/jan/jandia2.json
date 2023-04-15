@@ -1,23 +1,45 @@
 {
     "a":
         [{
-            "dialog":"",
-            "expression":""
+            "dialog":"Let's NOT start unencrypting the files I worked very hard on",
+            "expression":"mo"
         },
         {
-            "dialog":"",
-            "expression":""
+            "dialog":"Do you have no shame? No appreciation for art?",
+            "expression":"mo"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"I create beautiful blurred canvases.",
+            "expression":"no"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"NOT FOR YOU TO RUIN THEM, HOWEVER",
+            "expression":"st"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"Stop hurting my art, hater.",
+            "expression":"sp"
+        }],
+
+    "b":
+        [{
+            "dialog":"That one fell right out of your lap, huh?",
+            "expression":"sm"
+        },
+        {
+            "dialog":"Consider not trying to fix the issue.",
+            "expression":"no"
+        },
+		{
+            "dialog":"You did cause it after all.",
+            "expression":"no"
+        },
+		{
+            "dialog":"Learn to live with the consequences",
+            "expression":"mo"
+        },
+		{
+            "dialog":"Not everything can be fixed.",
+            "expression":"mo"
         }]
 }

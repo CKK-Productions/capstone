@@ -29,6 +29,18 @@ async function accReq(fname: string, lname: string, email: string, password: str
     console.log(res);
 }
 
+//have tommy look
+async function getFnameById(id: number): Promise<string> {
+  const response = await fetch(`http://127.0.0.1:3000/employee/${id}/fname`);
+  const data = await response.json();
+
+  if (response.ok) {
+    console.log(data.password);
+  } else {
+    console.error(data.error);
+  }
+}
+
 // async function getName(id: number){
 //   const response = await fetch('http://127.0.0.1:3000/api/getName', {
 //     method: 'GET',
@@ -72,3 +84,4 @@ export {accReq}
 // export {getName}
 export {tempNum}
 export {tempRid}
+export {getFnameById}

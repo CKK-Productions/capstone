@@ -1,23 +1,93 @@
 {
     "a":
-        [{
-            "dialog":"",
-            "expression":""
+		[{
+            "dialog":" ",
+            "expression":"sm"
         },
         {
-            "dialog":"",
-            "expression":""
+            "dialog":" ",
+            "expression":"de"
+        },
+        {
+            "dialog":"huh?",
+            "expression":"de"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"What's happening???",
+            "expression":"de"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":" ",
+            "expression":"de"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":" ",
+            "expression":"de"
+        },
+		{
+            "dialog":"There ain't no way.",
+            "expression":"st"
+        },
+		{
+            "dialog":"'Scrunkles the Malware Muncher'??",
+            "expression":"st"
+        },
+		{
+            "dialog":"You're joking, right? That can't actually be a thing.",
+            "expression":"de"
+        },
+		{
+            "dialog":"Right?",
+            "expression":"de"
+        },
+		{
+            "dialog":" ",
+            "expression":"de"
+        },
+		{
+            "dialog":"Respectfully, stay 800 pixels away from me.",
+            "expression":"de"
+        },
+		{
+            "dialog":"Back",
+            "expression":"st"
+        },
+		{
+            "dialog":"UP",
+            "expression":"st"
+        },
+		{
+            "dialog":"NOW",
+            "expression":"st"
+        },
+        {
+            "dialog":" ",
+            "expression":"no"
+        },
+		{
+            "dialog":"*Gulp*",
+            "expression":"no"
+        }],
+        
+    "b":
+        [{
+            "dialog":" ",
+            "expression":"sm"
+        },
+		{
+            "dialog":"What else could I say?",
+            "expression":"sp"
+        },
+		{
+            "dialog":"Thank you for coming back.",
+            "expression":"no"
+        },
+		{
+            "dialog":"It was quite the final show. The file encryptions are completed.",
+            "expression":"no"
+        },
+		{
+            "dialog":"We're done here. See you, Space Cowboy.",
+            "expression":"no"
         }]
 }

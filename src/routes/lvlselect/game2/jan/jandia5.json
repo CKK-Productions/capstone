@@ -1,23 +1,45 @@
 {
     "a":
         [{
-            "dialog":"",
-            "expression":""
+            "dialog":"At this point, I'm moreso impressed by how you're stuggling.",
+            "expression":"no"
         },
         {
-            "dialog":"",
-            "expression":""
+            "dialog":"'The fight against my doom by saving my cat files'.",
+            "expression":"mo"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"That's the legacy you're leaving yourself here.",
+            "expression":"no"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"I just want you to realize how that sounds on paper.",
+            "expression":"no"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"But that isn't going to stop you, is it?",
+            "expression":"no"
+        }],
+        
+    "b":
+        [{
+            "dialog":"You're really getting the hang of it champ.",
+            "expression":"sm"
+        },
+        {
+            "dialog":"This far down the line and another cat popped like a balloon",
+            "expression":"sm"
+        },
+		{
+            "dialog":"Hope you didn't care for that one.",
+            "expression":"no"
+        },
+		{
+            "dialog":"Oh? That was your favorite?",
+            "expression":"no"
+        },
+		{
+            "dialog":"Maybe you shouldn't have failed, huh?",
+            "expression":"mo"
         }]
 }

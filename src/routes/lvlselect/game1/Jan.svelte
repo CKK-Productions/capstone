@@ -10,6 +10,15 @@
     //import JanOJoy from "./jan/janoverjoy.png";
     //importing the Jan character images
 
+    import JanNormal from "../game2/imgs/jan/jannormal.gif";
+    import JanSmug from "../game2/imgs/jan/jansmug.gif";
+    import JanMouth from "../game2/imgs/jan/janmouth.gif";
+    import JanDesp from "../game2/imgs/jan/jandespair.gif";
+    import JanSpin from "../game2/imgs/jan/janspin.gif";
+    import JanStare from "../game2/imgs/jan/janstare.gif";
+
+    import Arrow from "./books/funnyarrowr.png";
+
     import Timer from "./jan/timer.png";
 
     import Dialog0 from "./level1/jandialog0.json";
@@ -91,13 +100,29 @@
         else if (exp == "bl"){
             j = 6
         }
-        else if (exp = "he"){
-            j = 0
-        }
-        else if (exp = "bi"){
-            j = 0
-        }
+        // else if (exp = "he"){
+        //     j = 7
+        // }
+        // else if (exp = "bi"){
+        //     j = 8
+        // }
+        // else if (exp = "no"){
+        //     j = 9
+        // }
+        // else if (exp = "sm"){
+        //     j = 10
+        // }
+        // else if (exp = "mo"){
+        //     j = 11
+        // }
+        // else if (exp = "sp"){
+        //     j = 13
+        // }
+        // else if (exp = "st"){
+        //     j = 14
+        // }
     }
+    
 
     function nextProg() {
         y++;
@@ -136,7 +161,7 @@
             buthide = "show";
         }
         if (y == 6 && line == 0) {
-            thide = "hide";
+            thide = "none";
         }
         if (y == 5 && line == 7) {
             thide = "show";
@@ -183,6 +208,8 @@
                 dialog = currDial[part][line].dialog; //update
                 expression = currDial[part][line].expression //update
                 expCheck(expression); //setting Jan's expression based on the json file entry
+                console.log(expression);
+                console.log(j);
             }
         }
     }
@@ -217,13 +244,17 @@
 <div class="jan">
     <button class="jan" type="button" disabled><h2>{dialog}</h2></button> <!--Jan's interact dialog button-->
     <img src={Textbox} id="textbox" alt="textbox"/>
-    <button class="cnt" type="button" on:click={() => nextLine()} style="--buttdis: {buthide}"><p> ==> </p> </button>
+    <button class="cnt" type="button" on:click={() => nextLine()} style="--buttdis: {buthide}"><img src={Arrow} id="arrow" alt="arrow" /></button>
 </div>
 <div class="timer" style="--timerdis: {thide}">
     <img src={Timer} alt="The Timer" />
 </div>
 
 <style>
+    #arrow {
+        width: 50px;
+        height: 40px;
+    }
     div.jan {
         position: absolute;
         left: 1560px;
@@ -252,7 +283,9 @@
         position: absolute;
         top: 180%;
         left: 15%;
-        display: var(--buttdis)
+        display: var(--buttdis);
+        cursor: pointer;
+        border: 2px red solid;
     }
     #textbox{
         position: absolute;

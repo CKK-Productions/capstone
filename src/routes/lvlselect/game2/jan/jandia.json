@@ -1,23 +1,63 @@
 {
     "a":
         [{
-            "dialog":"need this",
+            "dialog":"Oh hey! You're back!",
             "expression":"no"
         },
         {
-            "dialog":"",
-            "expression":""
+            "dialog":"You know, I regret saying I hope we never see again.",
+            "expression":"no"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"It's much more fun to encrypt your files right in front of you.",
+            "expression":"sm"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"Watching you helplessly struggle about while I do my job makes it more entertaining!",
+            "expression":"mo"
         },
 		{
-            "dialog":"",
-            "expression":""
+            "dialog":"Like here, watch this.",
+            "expression":"no"
+        },
+        {
+            "dialog":"See this cat?",
+            "expression":"no"
+        },
+		{
+            "dialog":"Now you see em.",
+            "expression":"sp"
+        },
+		{
+            "dialog":"Now you don't!",
+            "expression":"sm"
+        },
+        {
+            "dialog":"And I've done it to all of your cat files, too!",
+            "expression":"sm"
+        },
+		{
+            "dialog":"All your cats belong to me.",
+            "expression":"sm"
+        },
+		{
+            "dialog":"Don't worry though, I'm not awful awful.",
+            "expression":"no"
+        },
+		{
+            "dialog":"You can get them all back for a little kaching.",
+            "expression":"no"
+        },
+        {
+            "dialog":"You know, dollars! Currency! The blood money that rules your world.",
+            "expression":"mo"
+        },
+		{
+            "dialog":"We can talk price later, though. Still have other files to get to.",
+            "expression":"no"
+        },
+		{
+            "dialog":"See you chump! Don't bother trying to do anything with your cat files; they're long gone.",
+            "expression":"sm"
         }]
 }
