@@ -36,6 +36,7 @@
     let dialogcomp = 0;
     let unlBook = 0;
     let qa = 0;
+    let showfail = 0;
     </script>
 
 <svelte:head>
@@ -49,12 +50,8 @@
     <Door bind:z={currDoor} bind:v={gamecomp}/> <!--Door.svelte with z value being the same as currDoor-->    
 </div>
 <div class="quiz" style="--quizdis: {quhide}">
-    <Quiz bind:d={dialogcomp} bind:v={gamecomp} bind:item={quizbutt} bind:z={currDoor} bind:qansw={qa}/> 
+    <Quiz bind:d={dialogcomp} bind:v={gamecomp} bind:item={quizbutt} bind:z={currDoor} bind:qansw={qa} bind:sfa={showfail}/> 
 </div>
-<div class="jan">
-    <Jan bind:qhide={quhide} bind:dhide={dohide} bind:phide={pahide} bind:bhide={bohide} bind:ehide={endhide} bind:d={dialogcomp} bind:v={gamecomp} bind:c={quizbutt} bind:zed={currDoor} bind:b={unlBook} bind:qexp={qa}/> <!-- Jan.svelte-->
-</div>
-
 <div class="books" style="--bookdis: {bohide}">
     <h1>
         <Book bind:book={currBook} bk={unlBook} /> <!--Book.svelte with book value being the same as currBook | Outputing chapter value-->
@@ -63,6 +60,12 @@
 
 <div class="page" style="--pagedis: {pahide}">
     <Page x={currBook} /> <!--Page.svelte with x being the same as currBook | Inputing chapter value-->
+</div>
+<div class="jan">
+    <Jan bind:qhide={quhide} bind:dhide={dohide} bind:phide={pahide} 
+    bind:bhide={bohide} bind:ehide={endhide} bind:d={dialogcomp} 
+    bind:v={gamecomp} bind:c={quizbutt} bind:zed={currDoor} 
+    bind:b={unlBook} bind:qexp={qa} bind:fa={showfail}/> <!-- Jan.svelte-->
 </div>
 <div class="end" style="--endis: {endhide}">
     <h2>Score Submitted</h2>

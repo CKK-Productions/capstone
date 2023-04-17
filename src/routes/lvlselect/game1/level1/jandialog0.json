@@ -2,11 +2,11 @@
     "a":
     [{
         "dialog":"...",
-        "expression":"bl"
+        "expression":"sl"
     },
     {
         "dialog":"huh?",
-        "expression":"oe"
+        "expression":"wi"
     },
     {
         "dialog":"",
@@ -18,7 +18,7 @@
     },
     {
         "dialog":"what A wonderful surprise!",
-        "expression":"de"
+        "expression":"up"
     },
     {
         "dialog":"it is So nice to meet you! Jan is the name!",
@@ -70,7 +70,7 @@
     },
     {
         "dialog":"how You ask?",
-        "expression":"oe"
+        "expression":"wi"
     },
     {
         "dialog":"that Is my job! to Teach you!",

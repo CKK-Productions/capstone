@@ -2,11 +2,11 @@
     "a":
     [{
         "dialog":"...",
-        "expression":"bi"
+        "expression":"sl"
     },
     {
         "dialog":"...",
-        "expression":"se"
+        "expression":"bi"
     },
     {
         "dialog":"sorry, Janny was daydreaming",
@@ -14,7 +14,7 @@
     },
     {
         "dialog":"i will Have so much free time later, it is hard not to fantasize",
-        "expression":"de"
+        "expression":"si"
     },
     {
         "dialog":"what Do you do in your free time?",
@@ -22,7 +22,7 @@
     },
     {
         "dialog":"how Productive is your life outside of your responsibilities?",
-        "expression":"de"
+        "expression":"wi"
     },
     {
         "dialog":"...",
@@ -30,11 +30,11 @@
     },
     {
         "dialog":"great Work on the chain by the way",
-        "expression":"up"
+        "expression":"sa"
     },
     {
         "dialog":"shall We?",
-        "expression":"de"
+        "expression":"se"
     }],
     
     "success":
@@ -44,7 +44,7 @@
     },
     {
         "dialog":"keep Going",
-        "expression":"de"
+        "expression":"oe"
     },
     {
         "dialog":"quite The token!",
@@ -54,7 +54,7 @@
     "failure":
     [{
         "dialog":"...",
-        "expression":"he"
+        "expression":"ce"
     },
     {
         "dialog":"...",
@@ -62,6 +62,6 @@
     },
     {
         "dialog":"...",
-        "expression":"bl"
+        "expression":"oe"
     }]
 }

@@ -1,5 +1,5 @@
 
-async function loginReq(email: string, password: string){
+async function loginReq(email: string, password: string) {
     const response = await fetch('http://127.0.0.1:3000/api/login', {
       method: 'POST',
       headers: {
@@ -16,7 +16,7 @@ async function loginReq(email: string, password: string){
     }
 }
 
-async function accReq(fname: string, lname: string, email: string, password: string){
+async function accReq(fname: string, lname: string, email: string, password: string) {
     const response = await fetch('http://127.0.0.1:3000/api/accounts', {
       method: 'POST',
       headers: {
@@ -29,9 +29,21 @@ async function accReq(fname: string, lname: string, email: string, password: str
     console.log(res);
 }
 
-//have tommy look
-async function getFnameById(id: number): Promise<string> {
-  const response = await fetch(`http://127.0.0.1:3000/employee/${id}/fname`);
+async function feedReq(id: number, respond: string) {
+  const response = await fetch('http://127.0.0.1:3000/api/feedback', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ id, respond })
+  })
+
+  const res = await response.json();
+  console.log(res);
+}
+
+async function getFnameById(employee_id: number): Promise<string> {
+  const response = await fetch(`http://127.0.0.1:3000/employee/${employee_id}/fname`);
   const data = await response.json();
 
   if (response.ok) {
@@ -39,6 +51,8 @@ async function getFnameById(id: number): Promise<string> {
   } else {
     console.error(data.error);
   }
+
+  return data.fname;
 }
 
 // async function getName(id: number){
@@ -54,7 +68,7 @@ async function getFnameById(id: number): Promise<string> {
 //   console.log(res);
 // }
 
-async function tempNum(tempnum: number, current: string){
+async function tempNum(tempnum: number, current: string) {
   const response = await fetch('http://127.0.0.1:3000/api/temp', {
     method: 'POST',
     headers: {
@@ -67,7 +81,19 @@ async function tempNum(tempnum: number, current: string){
   console.log(res);
 }
 
-async function tempRid(){
+async function tempRid() {
+  const response = await fetch('http://127.0.0.1:3000/api/tempRid', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    }
+  })
+
+  const res = await response.json();
+  console.log(res);
+}
+
+async function getTemp() {
   const response = await fetch('http://127.0.0.1:3000/api/tempRid', {
     method: 'POST',
     headers: {
@@ -85,3 +111,4 @@ export {accReq}
 export {tempNum}
 export {tempRid}
 export {getFnameById}
+export {feedReq}

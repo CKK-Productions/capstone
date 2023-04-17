@@ -20,7 +20,9 @@
     export let item = 'click';
     export let z = 0;
     export let qansw = 0;
+    export let sfa = 0;
     let fail = 0;
+    let failhide = "none";
 
     function randomQuiz(ran) {
         if (ran == 1) {
@@ -99,8 +101,16 @@
         return item == 'click'
     }
 
+    function failCheck() {
+        if (sfa == 1) {
+            console.log("click")
+            failhide = "show";
+        }
+    }
+
     $:d, dialogCheck();
     $:qansw, qansw = 0;
+    $:sfa, failCheck();
 </script>
     
     <div class="quiz">
@@ -110,32 +120,48 @@
             <button class="answer" disabled='{canClick(item)}' on:click={() => checkRes(1)}><h2>{answers[1]}</h2></button>
             <button class="answer" disabled='{canClick(item)}' on:click={() => checkRes(2)}><h2>{answers[2]}</h2></button>
             <button class="answer" disabled='{canClick(item)}' on:click={() => checkRes(3)}><h2>{answers[3]}</h2></button>
-            <button class="answer" disabled='{canClick(item)}' on:click={() => checkWin()}><h2>Win</h2></button>
+            <!-- <button class="answer" disabled='{canClick(item)}' on:click={() => checkWin()}><h2>Win</h2></button> -->
         </div> 
     </div>
 
+    <div class="fail" style="--faildis: {failhide}">
+        <h3>Fails: {fail}</h3>
+    </div>
+
     <style>
-    div.quiz {
-        position: absolute;
-        left: 860px;
-        top: 200px;
-        /* border: 3px solid blue; */
-        width: 620px;
-    }
-    div.button {
-        flex: 1;
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-    }
-    .answer {
-        width: 297px;
-    }
-    #question {
-        width: 618px;
-        height: 200px;
-    }
-    div {
-        padding: 10px;
-    }
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap');
+
+        h3 {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        .fail {
+            display: var(--faildis);
+            font-size: 40px;
+            position: absolute;
+            left: 50%;
+        }
+        div.quiz {
+            position: absolute;
+            left: 860px;
+            top: 200px;
+            /* border: 3px solid blue; */
+            width: 620px;
+        }
+        div.button {
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .answer {
+            width: 297px;
+        }
+        #question {
+            width: 618px;
+            height: 200px;
+            color: black;
+        }
+        div {
+            padding: 10px;
+        }
     </style>

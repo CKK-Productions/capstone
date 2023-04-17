@@ -18,7 +18,7 @@
     },
     {
         "dialog":"i Wish i could do more on my own",
-        "expression":"sw"
+        "expression":"sl"
     },
     {
         "dialog":"well, That is the first chain down! getting Closer to what we want!",
@@ -26,7 +26,7 @@
     },
     {
         "dialog":"that Being to open the door",
-        "expression":"de"
+        "expression":"oe"
     },
     {
         "dialog":"there is No time like the present! look, A new book!",
@@ -50,7 +50,7 @@
     "failure":
     [{
         "dialog":"...?",
-        "expression":"si"
+        "expression":"sw"
     },
     {
         "dialog":"sure Stumped me",
@@ -58,6 +58,6 @@
     },
     {
         "dialog":"...",
-        "expression":"bl"
+        "expression":"wi"
     }]
 }

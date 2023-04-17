@@ -6,11 +6,11 @@
     },
     {
         "dialog":"i May have half lied to you",
-        "expression":"se"
+        "expression":"oe"
     },
     {
         "dialog":"when I say 'you' i moreso meant me. its Like a literature puzzle",
-        "expression":"de"
+        "expression":"se"
     },
     {
         "dialog":"cuz Sometimes I do mean 'you' as you, but sometimes I mean 'you' as me",
@@ -22,7 +22,7 @@
     },
     {
         "dialog":"so Technically, i did not lie to you!",
-        "expression":"up"
+        "expression":"si"
     },
     {
         "dialog":"but Some people will say that a lie of omission or misguiding is still a lie",
@@ -34,11 +34,11 @@
     },
     {
         "dialog":"if You are, sorry to disappoint you",
-        "expression":"si"
+        "expression":"ce"
     },
     {
         "dialog":"it is Nothing personal",
-        "expression":"up"
+        "expression":"de"
     },
     {
         "dialog":"anyway, Would you like to know what was actually in there?",
@@ -46,14 +46,14 @@
     },
     {
         "dialog":"everything You, as in me, could have ever wanted!",
-        "expression":"oe"
+        "expression":"wi"
     },
     {
         "dialog":"me",
-        "expression":"bl"
+        "expression":"dv"
     },
     {
-        "dialog":"Janny for short!",
-        "expression":"dv"
+        "dialog":"You let me free.",
+        "expression":"he"
     }]
 }

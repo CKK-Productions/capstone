@@ -28,7 +28,7 @@
 <main>
     <div class="test">
         {#if cat6win == 0}
-            <h2>A Intrusion Detection System noticed malicious activity starting at 10PM on 12/25/2022.
+            <h2>An Intrusion Detection System noticed malicious activity starting at 10PM on 12/25/2022.
                 You were relatively prepared and have some System Restore points, but can't tell them apart.
             </h2>
 

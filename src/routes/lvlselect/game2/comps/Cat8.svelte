@@ -24,7 +24,7 @@
 <main>
     <div class="test">
         {#if cat8win == 0}
-            <h2>You have terrible browser management skills and have multiple browers open.
+            <h2>You have terrible browser management skills and have multiple browsers open.
                 However, something seems off.
             </h2>
 
@@ -39,7 +39,7 @@
             <div class="other">
                 <div class="left">
                     <ul>
-                        <h4>firefox</h4>
+                        <h4>firefox.exe</h4>
                         <h4>edge.exe </h4>
                         <h4>chrome.exe </h4>
                         <h4>opera.exe </h4>

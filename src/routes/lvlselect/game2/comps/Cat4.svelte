@@ -37,7 +37,7 @@
             </h2>
 
             <h2>
-                Can you guarrante the computer can be safely recovered?
+                Can you guarantee the computer can be safely recovered?
             </h2>
             
             <div class="buttons">
@@ -48,7 +48,7 @@
             <h2>Your computer <b>HAS</b> available backups or safetys in place before a malware incident occured.</h2>
 
             <h2>
-                Can you guarrante the computer can be safely recovered?
+                Can you guarantee the computer can be safely recovered?
             </h2>
 
             <div class="buttons">

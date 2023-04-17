@@ -6,7 +6,7 @@
     },
     {
         "dialog":"as Apparent as that is",
-        "expression":"se"
+        "expression":"ce"
     },
     {
         "dialog":"i Would have already taken all that delicious everything behind the door",
@@ -18,11 +18,11 @@
     },
     {
         "dialog":"see, I was never born with the ability to read! my Strong-suits are more about appearances",
-        "expression":"si"
+        "expression":"sw"
     },
     {
         "dialog":"i Like to look fancy! see My tie?",
-        "expression":"sw"
+        "expression":"sa"
     },
     {
         "dialog":"enough About me, though; more About you!",
@@ -65,7 +65,7 @@
         "expression":"de"
     },
     {
-        "dialog":"oh, And if you need a silent environment, the mute option is always available!",
+        "dialog":"i'm Counting on you!",
         "expression":"se"
     }],
 
@@ -76,7 +76,7 @@
     },
     {
         "dialog":"good Job!",
-        "expression":"up"
+        "expression":"ce"
     },
     {
         "dialog":"quite The smarty!",
@@ -86,7 +86,7 @@
     "failure":
     [{
         "dialog":"how?",
-        "expression":"oe"
+        "expression":"wi"
     },
     {
         "dialog":"try That one again",
@@ -94,6 +94,6 @@
     },
     {
         "dialog":"...",
-        "expression":"dv"
+        "expression":"sl"
     }]
 }

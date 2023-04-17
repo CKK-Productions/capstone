@@ -2,11 +2,11 @@
     "a":
         [{
             "dialog":"you have Done it!",
-            "expression":"de"
+            "expression":"up"
         },
         {
             "dialog":"the Moment i have been waiting for!",
-            "expression":"oj"
+            "expression":"se"
         },
         {
             "dialog":"well Go on, champ!",
@@ -18,6 +18,6 @@
         },
         {
             "dialog":"Janny is waiting",
-            "expression":"oe"
+            "expression":"se"
         }]
 }

@@ -1,11 +1,11 @@
 {
     "a":
     [{
-        "dialog":"troJanny to be precise.",
-        "expression":"no"
+        "dialog":"Janny in short.",
+        "expression":"up"
     },
     {
-        "dialog":"I must thank you for today.",
+        "dialog":"troJanny to be precise.",
         "expression":"no"
     },
     {
@@ -17,7 +17,7 @@
         "expression":"mo"
     },
     {
-        "dialog":"A push here. A fake timer there",
+        "dialog":"A push here. A fake timer there.",
         "expression":"mo"
     },
     {
@@ -25,7 +25,7 @@
         "expression":"no"
     },
     {
-        "dialog":"It took a lot in me not to chuckle here and there.",
+        "dialog":"It took a lot in me not to chuckle about it.",
         "expression":"sm"
     },
     {
@@ -74,6 +74,6 @@
     },
     {
         "dialog":"i Hope that our paths never cross again",
-        "expression":"de"
+        "expression":"se"
     }]
 }

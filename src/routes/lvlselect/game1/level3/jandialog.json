@@ -6,7 +6,7 @@
     },
     {
         "dialog":"i Sure am full of so much security knowledge after that section!",
-        "expression":"de"
+        "expression":"ce"
     },
     {
         "dialog":"a Personal favorite of mine is the part about privilege escalation",
@@ -26,7 +26,7 @@
     },
     {
         "dialog":"that is A big misconception with cybersecurity",
-        "expression":"de"
+        "expression":"wi"
     },
     {
         "dialog":"despite The “cyber” in the name, physical security of electronic assets is important, too!",
@@ -54,14 +54,14 @@
     "failure":
     [{
         "dialog":"...",
-        "expression":"bl"
+        "expression":"sl"
     },
     {
         "dialog":"cmon",
-        "expression":"sw"
+        "expression":"sa"
     },
     {
         "dialog":"...",
-        "expression":"bl"
+        "expression":"sw"
     }]
 }

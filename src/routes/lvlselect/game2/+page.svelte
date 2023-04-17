@@ -33,6 +33,8 @@
     import Cat10a from "./imgs/cats/cat10.png";
     import Cat10b from "./imgs/cats/at10.png";
 
+    import Down from "./imgs/bg/down.png";
+
 
     const Cat1 = [Cat1b, Cat1a];
     const Cat2 = [Cat2b, Cat2a];
@@ -316,10 +318,20 @@
         <h2>Return to Main Menu</h2>
         </button>
     </div>
+
+    <div class="down">
+        <img src={Down} alt="too far down" title="Head back to the game." />
+    </div>
 </div>
 
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+    .down {
+        position: absolute;
+        top: 140%;
+        left: 33%;
+    }
     h2 {
         font-family: 'Quicksand', sans-serif;
         text-align: center;

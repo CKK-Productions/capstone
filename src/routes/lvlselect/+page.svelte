@@ -18,7 +18,7 @@
 		window.location.assign(url);
 	}
 
-	let game = {two: false};
+	let game = {two: false, done: true};
 	
 	// async function cookieArrive() {
 	// 	const res = document.cookie;
@@ -56,7 +56,7 @@
 			{:catch error}
 				<h1> Failed D:</h1>
 			{/await} -->
-			<h1> Hello, {accname}!</h1>
+			<h1>Choose your Game</h1>
 		</div>
 		<div class="g1">
 			<img src={Game1} on:click={() => webpage("./lvlselect/game1")} alt="Game 1 icon" />
@@ -72,6 +72,12 @@
 		{:else}
 			<div class="left">		
 				<img src={YAH} alt="you are here" class="yah"/>
+			</div>
+		{/if}
+
+		{#if game.done}
+			<div class="finbox">
+				<button><h2 class="fin" on:click={() => webpage("./lvlselect/feedback")}>Finish!</h2></button>
 			</div>
 		{/if}
 		
@@ -93,33 +99,45 @@
 		border: 3px ridge #355dd4;
 		width:417px;
 		height: 555px;
+		cursor: pointer;
 	}
 	.g2 {
 		position: absolute;
 		top: 30%;
-		left: 54.7%;
+		left: 54.3%;
 		border: 3px ridge #355dd4;
 		width: 417px;
 		height: 555px;
+		cursor: pointer;
 	}
 	#welcome {
 		font-family: 'Quicksand', sans-serif;
 		position: absolute;
 		top: 20%;
-		left: 47%;
+		left: 45.5%;
 	}
 	.left {
 		position: absolute;
-		top: 75%;
+		top: 77%;
 		left: 31.8%; 
 	}
 	.right {
 		position: absolute;
-		top: 75%;
+		top: 77%;
 		left: 58%;
 	}
 	.yah {
 		width: 250px;
 		height: 270px;
+	}
+	.fin {
+		font-family: 'Quicksand', sans-serif;
+		width: 200px;
+		cursor: pointer;
+	}
+	.finbox {
+		position: absolute;
+		top: 10%;
+		left: 45.5%;
 	}
 </style>
