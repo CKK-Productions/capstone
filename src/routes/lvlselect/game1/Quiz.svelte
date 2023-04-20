@@ -21,7 +21,7 @@
     export let z = 0;
     export let qansw = 0;
     export let sfa = 0;
-    let fail = 0;
+    export let fail = 0;
     let failhide = "none";
 
     function randomQuiz(ran) {

@@ -37,7 +37,9 @@
     import Dialog8 from "./end/jandialog.json";
     //importing the different dialogs. Any dialog with a 0 does not have success/failure sheets.
     
-    import Textbox from "./jan/textbox.png";
+    import Textbox from "./jan/bubble.png";
+
+    import { tempGet, subScore } from "../../../scripts/api";
 
     const Jan = [JanDe, JanOe, JanSi, JanUp, JanSe, JanDv, JanCe, JanBi, JanHe, JanSa, JanSl, JanWi,
                 JanNormal, JanSmug, JanMouth, JanSpin, JanStare];
@@ -71,6 +73,8 @@
     export let fa = 0;
     let rand = 0;
     let p = 0;
+    let storedUser;
+    export let failure = 0;
 
     let buthide = "show";
     // function expCheck can be improved with an enum/swtich case. 
@@ -140,6 +144,10 @@
         }
     }
     
+    async function finalizeGame() {
+        storedUser = await tempGet();
+        await subScore(1, 1, storedUser, failure, "y");
+    }
 
     function nextProg() {
         y++;
@@ -203,7 +211,8 @@
         }
         if (y == 8 && line == count - 1) {  //if statement when hitting the final dialog
             ehide = "show";
-            //insert submit here <<<<<<<<<<<<<
+            finalizeGame();
+            buthide = "none";
         }
         else {
             if ((y == 0) && line == count - 1) { //if statement for checking if at the end of a dialog sequence. MUST BE BEFORE THE ELSE
@@ -280,8 +289,8 @@
     {/if}
 </div>
 <div class="jan">
-    <button class="jan" type="button" disabled><h2>{dialog}</h2></button> <!--Jan's interact dialog button-->
     <img src={Textbox} id="textbox" alt="textbox"/>
+    <button class="jan" type="button" disabled><h2>{dialog}</h2></button> <!--Jan's interact dialog button-->
     <button class="cnt" type="button" on:click={() => nextLine()} style="--buttdis: {buthide}"><img src={Arrow} id="arrow" alt="arrow" /></button>
 </div>
 <div class="timer" style="--timerdis: {thide}">
@@ -315,8 +324,8 @@
         border: 3px solid rgb(23, 83, 102);
     }
     button.jan {
-        width: 500px;
-        height: 200px;
+        width: 505px;
+        height: 207px;
         background-color: aliceblue;
         color: black;
     }
@@ -332,8 +341,8 @@
     }
     #textbox{
         position: absolute;
-        top: -20%;
-        left: -20%;
+        top: 0%;
+        left: 0%;
     }
     div.timer {
         position: absolute;

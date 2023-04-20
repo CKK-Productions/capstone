@@ -1,6 +1,6 @@
 <script lang="ts">
-  import { feedReq } from "../../../scripts/api";
-  let tempNum = 1;
+  import { feedReq, tempGet } from "../../../scripts/api";
+  let tempNum = 0;
 
   async function onSubmit(e) {
     const formData = new FormData(e.target);
@@ -14,6 +14,7 @@
     }
     else {
         console.log(data);
+        tempNum = await tempGet();
         await feedReq(tempNum, data["feedback"]);
         alert("Your feedback has been received! Thank you for your time.");
       }

@@ -37,6 +37,7 @@
     let unlBook = 0;
     let qa = 0;
     let showfail = 0;
+    let fails = 0;
     </script>
 
 <svelte:head>
@@ -50,7 +51,7 @@
     <Door bind:z={currDoor} bind:v={gamecomp}/> <!--Door.svelte with z value being the same as currDoor-->    
 </div>
 <div class="quiz" style="--quizdis: {quhide}">
-    <Quiz bind:d={dialogcomp} bind:v={gamecomp} bind:item={quizbutt} bind:z={currDoor} bind:qansw={qa} bind:sfa={showfail}/> 
+    <Quiz bind:d={dialogcomp} bind:v={gamecomp} bind:item={quizbutt} bind:z={currDoor} bind:qansw={qa} bind:sfa={showfail} bind:fail={fails}/> 
 </div>
 <div class="books" style="--bookdis: {bohide}">
     <h1>
@@ -65,7 +66,7 @@
     <Jan bind:qhide={quhide} bind:dhide={dohide} bind:phide={pahide} 
     bind:bhide={bohide} bind:ehide={endhide} bind:d={dialogcomp} 
     bind:v={gamecomp} bind:c={quizbutt} bind:zed={currDoor} 
-    bind:b={unlBook} bind:qexp={qa} bind:fa={showfail}/> <!-- Jan.svelte-->
+    bind:b={unlBook} bind:qexp={qa} bind:fa={showfail} bind:failure={fails}/> <!-- Jan.svelte-->
 </div>
 <div class="end" style="--endis: {endhide}">
     <h2>Score Submitted</h2>

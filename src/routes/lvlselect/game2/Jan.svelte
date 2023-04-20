@@ -1,4 +1,6 @@
 <script>
+    import { tempGet, subScore } from "../../../scripts/api";
+
     import JanNormal from "./imgs/jan/jannormal.gif";
     import JanSmug from "./imgs/jan/jansmug.gif";
     import JanMouth from "./imgs/jan/janmouth.gif";
@@ -64,6 +66,8 @@
     let expression = currDial[part][line].expression; //setting expression as the direct expression of the current line
     let count = currDial[part].length; //setting count as the line count for the dialog
 
+    let storedUser;
+    let fails;
 
     function expCheck(exp) {  //function for checking the expression and setting the value that changes Jan's sprite
         if (exp == "no") {
@@ -123,11 +127,20 @@
         if (part == 'a') {
             ehide = "show";
             etitle = "Good Ending! Score Submitted";
+            fails = 8 - total;
+            finalizeGame("y")
         }
         else if (part == 'b') {
             ehide = "show";
             etitle = "Bad Ending! Score Submitted";
+            fails = 8 - total;
+            finalizeGame("n")
         }
+    }
+
+    async function finalizeGame(comp) {
+        storedUser = await tempGet();
+        await subScore(2, 1, storedUser, fails, comp);
     }
 
     function nextLine() {  //function for pressing the dialog button
@@ -216,6 +229,7 @@
         }
         else if (y == 9 && line == count - 1) {
             endGame();
+            buthide = "none"
         }
         else if (line == count - 1) { //if statement for checking if at the end of a dialog sequence. MUST BE BEFORE THE ELSE
             //console.log("EXECUTED!"); debugging
@@ -298,7 +312,7 @@
         width: 100px;
         height: 50px;
         position: absolute;
-        top: 80%;
+        top: 78.5%;
         left: 90%;
         display: var(--buttdis);
         border: 2px red solid;
